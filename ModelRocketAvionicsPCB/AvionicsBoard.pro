@@ -1,4 +1,4 @@
-update=3/19/2018 4:22:28 PM
+update=5/1/2018 1:18:59 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -62,3 +62,13 @@ LibName30=tm4c123gh6pm
 LibName31=lis331
 LibName32=l3gd20htr
 LibName33=mpl3115a2
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60

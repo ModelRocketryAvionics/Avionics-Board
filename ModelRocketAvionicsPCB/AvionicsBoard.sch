@@ -1070,7 +1070,7 @@ Wire Notes Line
 Text Notes 5100 4100 0    60   ~ 0
 USB ON-THE-GO
 Text Notes 4100 900  0    60   ~ 0
-TODO:\n - Expansion board breakouts (Bring most pins to headers for debug/expansion)\n
+TODO:\n - Connect IMU Interrupt pins (Probably not ALL necessary, but might as well)\n - Expansion board breakouts (Bring most pins to headers for debug/expansion)\n
 Text Notes 2150 500  1    60   ~ 0
 The 2nd SSI (SPI) bus is currently unused.
 Wire Notes Line
