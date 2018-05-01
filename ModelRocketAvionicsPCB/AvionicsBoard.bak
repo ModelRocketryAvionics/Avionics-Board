@@ -55,6 +55,7 @@ F 0 "U?" H 2600 3000 60  0000 C CNN
 F 1 "TM4C123GH6PM" H 2650 3150 60  0000 C CNN
 F 2 "" H 2600 3000 60  0001 C CNN
 F 3 "" H 2600 3000 60  0001 C CNN
+F 4 "296-46360-1-ND" H 2200 2900 60  0001 C CNN "Digi-Key Part Number"
 	1    2200 2900
 	1    0    0    -1  
 $EndComp
@@ -136,6 +137,7 @@ F 0 "P?" H 1300 7500 50  0000 C CNN
 F 1 "FTSH-105-01-F-DV" H 1300 6900 50  0000 C CNN
 F 2 "" H 1300 5950 50  0000 C CNN
 F 3 "" H 1300 5950 50  0000 C CNN
+F 4 "SAM9434-ND" H 1300 7150 60  0001 C CNN "Digi-Key Part Number"
 	1    1300 7150
 	1    0    0    -1  
 $EndComp
@@ -409,6 +411,7 @@ F 0 "CON?" H 9450 5950 60  0000 C CNN
 F 1 "microSD_Card" H 10200 5500 60  0000 C CNN
 F 2 "" H 9450 5450 60  0001 C CNN
 F 3 "" H 9450 5450 60  0001 C CNN
+F 4 "WM11190CT-ND" H 9450 5500 60  0001 C CNN "Digi-Key Part Number"
 	1    9450 5500
 	1    0    0    -1  
 $EndComp
@@ -545,6 +548,7 @@ F 0 "U?" H 8800 4150 60  0000 C CNN
 F 1 "AT25SF161-16Mb_SPI_FLASH" H 9050 3550 60  0000 C CNN
 F 2 "" H 9050 3850 60  0001 C CNN
 F 3 "" H 9050 3850 60  0001 C CNN
+F 4 "1265-1230-1-ND" H 9050 3850 60  0001 C CNN "Digi-Key Part Number"
 	1    9050 3850
 	1    0    0    -1  
 $EndComp
@@ -621,6 +625,7 @@ F 0 "P?" H 6825 5175 50  0000 C CNN
 F 1 "USB_OTG" H 6500 5500 50  0000 C CNN
 F 2 "" V 6450 5200 50  0000 C CNN
 F 3 "" V 6450 5200 50  0000 C CNN
+F 4 "609-4053-1-ND" H 6500 5300 60  0001 C CNN "Digi-Key Part Number"
 	1    6500 5300
 	0    1    1    0   
 $EndComp
@@ -1070,7 +1075,7 @@ Wire Notes Line
 Text Notes 5100 4100 0    60   ~ 0
 USB ON-THE-GO
 Text Notes 4100 900  0    60   ~ 0
-TODO:\n - Expansion board breakouts (Bring most pins to headers for debug/expansion)\n
+TODO:\n - Connect IMU Interrupt pins (Probably not ALL necessary, but might as well)\n - Expansion board breakouts (Bring most pins to headers for debug/expansion)\n
 Text Notes 2150 500  1    60   ~ 0
 The 2nd SSI (SPI) bus is currently unused.
 Wire Notes Line
