@@ -1,3 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP MCP73831
+D SOT-23
+$ENDCMP
+#
+$CMP MIC5219-3.3BM5
+D  SOT-23-5
+$ENDCMP
+#
 #End Doc Library

@@ -37,7 +37,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 2
+Sheet 1 3
 Title ""
 Date ""
 Rev ""
@@ -664,11 +664,7 @@ Wire Wire Line
 Wire Wire Line
 	800  7300 1000 7300
 Wire Wire Line
-	800  7000 800  7100
-Wire Wire Line
-	800  7100 800  7300
-Wire Wire Line
-	800  7300 800  7500
+	800  7000 800  7500
 Wire Wire Line
 	1000 7100 800  7100
 Connection ~ 800  7300
@@ -676,25 +672,17 @@ Wire Wire Line
 	1000 7000 800  7000
 Connection ~ 800  7100
 Wire Wire Line
-	800  6400 800  6450
-Wire Wire Line
-	800  6450 800  6500
+	800  6400 800  6500
 Wire Wire Line
 	1750 7400 1750 7100
 Wire Wire Line
-	1600 7100 1750 7100
-Wire Wire Line
-	1750 7100 2050 7100
+	1600 7100 2050 7100
 Wire Wire Line
 	1750 6800 1750 6900
 Wire Wire Line
-	1600 6900 1750 6900
+	1600 6900 2050 6900
 Wire Wire Line
-	1750 6900 2050 6900
-Wire Wire Line
-	1600 7000 1950 7000
-Wire Wire Line
-	1950 7000 2050 7000
+	1600 7000 2050 7000
 Wire Wire Line
 	1950 7000 1950 6800
 Wire Wire Line
@@ -705,9 +693,7 @@ Connection ~ 1950 7000
 Connection ~ 1750 6900
 Connection ~ 1750 7100
 Wire Wire Line
-	800  6450 1750 6450
-Wire Wire Line
-	1750 6450 1950 6450
+	800  6450 1950 6450
 Wire Wire Line
 	1950 6450 1950 6500
 Connection ~ 800  6450
@@ -739,19 +725,13 @@ Wire Wire Line
 Wire Wire Line
 	3400 1300 3400 1250
 Wire Wire Line
-	3550 6900 3650 6900
+	3550 6900 4050 6900
 Wire Wire Line
-	3650 6900 4050 6900
-Wire Wire Line
-	3550 7000 3850 7000
-Wire Wire Line
-	3850 7000 4050 7000
+	3550 7000 4050 7000
 Wire Wire Line
 	3650 6550 3650 6500
 Wire Wire Line
-	3650 6500 3750 6500
-Wire Wire Line
-	3750 6500 3850 6500
+	3650 6500 3850 6500
 Wire Wire Line
 	3750 6500 3750 6450
 Wire Wire Line
@@ -800,17 +780,7 @@ Wire Wire Line
 Connection ~ 1200 5000
 Connection ~ 1200 5100
 Wire Wire Line
-	1100 5700 1200 5700
-Wire Wire Line
-	1200 5700 1550 5700
-Wire Wire Line
-	1550 5700 1900 5700
-Wire Wire Line
-	1900 5700 2250 5700
-Wire Wire Line
-	2250 5700 2600 5700
-Wire Wire Line
-	2600 5700 2950 5700
+	1100 5700 2950 5700
 Wire Wire Line
 	1550 5700 1550 5600
 Wire Wire Line
@@ -826,33 +796,15 @@ Wire Wire Line
 	2950 5700 2950 5600
 Connection ~ 2600 5700
 Wire Wire Line
-	1200 5600 1200 5700
-Wire Wire Line
-	1200 5700 1200 5750
+	1200 5600 1200 5750
 Connection ~ 1200 5700
 Wire Wire Line
-	1200 4950 1200 5000
-Wire Wire Line
-	1200 5000 1200 5100
-Wire Wire Line
-	1200 5100 1200 5200
-Wire Wire Line
-	1200 5200 1200 5300
+	1200 4950 1200 5300
 Connection ~ 1200 5200
 Wire Wire Line
 	2950 5200 2950 5300
 Wire Wire Line
-	1100 5200 1200 5200
-Wire Wire Line
-	1200 5200 1550 5200
-Wire Wire Line
-	1550 5200 1900 5200
-Wire Wire Line
-	1900 5200 2250 5200
-Wire Wire Line
-	2250 5200 2600 5200
-Wire Wire Line
-	2600 5200 2950 5200
+	1100 5200 2950 5200
 Wire Wire Line
 	1550 5300 1550 5200
 Connection ~ 1550 5200
@@ -866,13 +818,7 @@ Wire Wire Line
 	2600 5300 2600 5200
 Connection ~ 2600 5200
 Wire Wire Line
-	3800 5200 3900 5200
-Wire Wire Line
-	3900 5200 4200 5200
-Wire Wire Line
-	4200 5200 4500 5200
-Wire Wire Line
-	4500 5200 4750 5200
+	3800 5200 4750 5200
 Wire Wire Line
 	3900 5200 3900 5300
 Wire Wire Line
@@ -887,13 +833,7 @@ Connection ~ 4500 5200
 Wire Wire Line
 	3900 5600 3900 5700
 Wire Wire Line
-	3800 5700 3900 5700
-Wire Wire Line
-	3900 5700 4200 5700
-Wire Wire Line
-	4200 5700 4500 5700
-Wire Wire Line
-	4500 5700 4750 5700
+	3800 5700 4750 5700
 Wire Wire Line
 	4200 5700 4200 5600
 Connection ~ 3900 5700
@@ -912,17 +852,11 @@ Wire Notes Line
 Wire Notes Line
 	5000 6000 500  6000
 Wire Wire Line
-	9350 6100 9350 6150
-Wire Wire Line
-	9350 6150 9350 6200
+	9350 6100 9350 6200
 Wire Wire Line
 	9450 6100 9450 6150
 Wire Wire Line
-	9350 6150 9450 6150
-Wire Wire Line
-	9450 6150 9550 6150
-Wire Wire Line
-	9550 6150 9650 6150
+	9350 6150 9650 6150
 Connection ~ 9350 6150
 Wire Wire Line
 	9550 6150 9550 6100
@@ -937,9 +871,7 @@ Wire Wire Line
 Wire Wire Line
 	8450 5050 8450 5250
 Wire Wire Line
-	8250 5250 8450 5250
-Wire Wire Line
-	8450 5250 8900 5250
+	8250 5250 8900 5250
 Wire Wire Line
 	8900 5450 8350 5450
 Wire Wire Line
@@ -957,18 +889,12 @@ Wire Wire Line
 Wire Wire Line
 	8550 6250 8650 6250
 Wire Wire Line
-	8650 6200 8650 6250
-Wire Wire Line
-	8650 6250 8650 6300
+	8650 6200 8650 6300
 Connection ~ 8650 6250
 Wire Wire Line
-	8650 4650 8650 4700
+	8650 4650 8650 4750
 Wire Wire Line
-	8650 4700 8650 4750
-Wire Wire Line
-	8350 4700 8450 4700
-Wire Wire Line
-	8450 4700 8650 4700
+	8350 4700 8650 4700
 Connection ~ 8450 4700
 Connection ~ 8650 4700
 Connection ~ 8450 5250
@@ -1017,9 +943,7 @@ Wire Wire Line
 Wire Wire Line
 	9700 3700 9600 3700
 Wire Wire Line
-	9700 3350 9700 3400
-Wire Wire Line
-	9700 3400 9700 3700
+	9700 3350 9700 3700
 Wire Wire Line
 	8500 4000 8300 4000
 Wire Wire Line
@@ -1052,14 +976,10 @@ Wire Wire Line
 Wire Wire Line
 	6150 5000 6150 5100
 Wire Wire Line
-	6100 5100 6150 5100
-Wire Wire Line
-	6150 5100 6200 5100
+	6100 5100 6200 5100
 Connection ~ 6150 5100
 Wire Wire Line
-	6150 5500 6150 5750
-Wire Wire Line
-	6150 5750 6150 5800
+	6150 5500 6150 5800
 Wire Wire Line
 	6150 5500 6200 5500
 Wire Wire Line
@@ -1098,9 +1018,7 @@ F 3 "" H 6000 4400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6000 4550 6000 4600
-Wire Wire Line
-	6000 4600 6000 4650
+	6000 4550 6000 4650
 $Comp
 L C C?
 U 1 1 5AECB307
@@ -1124,9 +1042,7 @@ F 3 "" H 6600 4400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6000 4600 6300 4600
-Wire Wire Line
-	6300 4600 6600 4600
+	6000 4600 6600 4600
 Wire Wire Line
 	6300 4600 6300 4550
 Connection ~ 6000 4600
@@ -1134,11 +1050,7 @@ Wire Wire Line
 	6600 4600 6600 4550
 Connection ~ 6300 4600
 Wire Wire Line
-	5950 4200 6000 4200
-Wire Wire Line
-	6000 4200 6300 4200
-Wire Wire Line
-	6300 4200 6600 4200
+	5950 4200 6600 4200
 Wire Wire Line
 	6000 4200 6000 4250
 Wire Wire Line
@@ -1157,8 +1069,8 @@ Wire Notes Line
 	5050 4000 5050 6000
 Text Notes 5100 4100 0    60   ~ 0
 USB ON-THE-GO
-Text Notes 6150 900  0    60   ~ 0
-TODO:\n - Power supply (battery, charging, regulation. Probably use a 1s lipo?)\n - Expansion board breakouts (Bring most pins to headers for debug/expansion)\n
+Text Notes 4100 900  0    60   ~ 0
+TODO:\n - Expansion board breakouts (Bring most pins to headers for debug/expansion)\n
 Text Notes 2150 500  1    60   ~ 0
 The 2nd SSI (SPI) bus is currently unused.
 Wire Notes Line
@@ -1249,27 +1161,21 @@ F 3 "" H 9100 2150 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	8700 1950 9100 1950
-Wire Wire Line
-	9100 1950 9350 1950
+	8700 1950 9350 1950
 Wire Wire Line
 	9100 1950 9100 2000
 Connection ~ 9100 1950
 Wire Wire Line
 	8700 1950 8700 2400
 Wire Wire Line
-	9100 2300 9100 2350
-Wire Wire Line
-	9100 2350 9100 2400
+	9100 2300 9100 2400
 Wire Wire Line
 	9350 2350 9100 2350
 Connection ~ 9100 2350
 Wire Wire Line
 	8900 2800 8900 2750
 Wire Wire Line
-	8700 2750 8900 2750
-Wire Wire Line
-	8900 2750 9100 2750
+	8700 2750 9100 2750
 Wire Wire Line
 	8700 2750 8700 2700
 Wire Wire Line
@@ -1300,14 +1206,10 @@ $EndComp
 Wire Wire Line
 	10700 2350 10350 2350
 Wire Wire Line
-	10350 2300 10350 2350
-Wire Wire Line
-	10350 2350 10350 2400
+	10350 2300 10350 2400
 Connection ~ 10350 2350
 Wire Wire Line
-	10050 2750 10350 2750
-Wire Wire Line
-	10350 2750 10700 2750
+	10050 2750 10700 2750
 Wire Wire Line
 	10350 2750 10350 2700
 Wire Wire Line
@@ -1316,9 +1218,7 @@ Connection ~ 10350 2750
 Wire Wire Line
 	10050 2200 10050 1950
 Wire Wire Line
-	10050 1950 10350 1950
-Wire Wire Line
-	10350 1950 10700 1950
+	10050 1950 10700 1950
 Wire Wire Line
 	10350 2000 10350 1950
 Connection ~ 10350 1950
@@ -1331,7 +1231,7 @@ Wire Notes Line
 Wire Notes Line
 	11200 3050 8550 3050
 Text Notes 8600 1700 0    60   ~ 0
-OSCILATORS
+OSCILLATORS
 Wire Wire Line
 	4000 3350 3950 3350
 Wire Wire Line
@@ -1374,9 +1274,7 @@ $EndComp
 Text GLabel 6450 3750 2    60   Input ~ 0
 RESET
 Wire Wire Line
-	6250 3750 6350 3750
-Wire Wire Line
-	6350 3750 6450 3750
+	6250 3750 6450 3750
 Wire Wire Line
 	6350 3750 6350 3700
 Connection ~ 6350 3750
@@ -1405,4 +1303,60 @@ Wire Notes Line
 	5050 3100 5050 3950
 Text Notes 5100 3200 0    60   ~ 0
 PROCESSOR RESET
+$Sheet
+S 9500 950  1000 400 
+U 5AE8FB66
+F0 "Power" 60
+F1 "Power.sch" 60
+F2 "+VBUS" I L 9500 1100 60 
+F3 "EN_3V3" I L 9500 1200 60 
+F4 "+VBAT" O R 10500 1100 60 
+$EndSheet
+$Comp
+L CONN_01X02 P?
+U 1 1 5AE964AC
+P 10850 1150
+F 0 "P?" H 10850 1000 50  0000 C CNN
+F 1 "JST-2" H 10850 1300 50  0000 C CNN
+F 2 "" H 10850 1150 50  0000 C CNN
+F 3 "" H 10850 1150 50  0000 C CNN
+	1    10850 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10500 1100 10650 1100
+$Comp
+L GND #PWR?
+U 1 1 5AE96FA7
+P 10600 1250
+F 0 "#PWR?" H 10600 1000 50  0001 C CNN
+F 1 "GND" H 10600 1100 50  0000 C CNN
+F 2 "" H 10600 1250 50  0000 C CNN
+F 3 "" H 10600 1250 50  0000 C CNN
+	1    10600 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10600 1250 10600 1200
+Wire Wire Line
+	10600 1200 10650 1200
+Text GLabel 9400 1100 0    60   Input ~ 0
++USB_VBUS
+Wire Wire Line
+	9400 1100 9500 1100
+Wire Wire Line
+	9450 1100 9450 1200
+Wire Wire Line
+	9450 1200 9500 1200
+Connection ~ 9450 1100
+Wire Notes Line
+	8550 1550 8550 500 
+Wire Notes Line
+	8550 500  11200 500 
+Wire Notes Line
+	11200 500  11200 1550
+Wire Notes Line
+	11200 1550 8550 1550
+Text Notes 8600 600  0    60   ~ 0
+POWER SUPPLY
 $EndSCHEMATC
