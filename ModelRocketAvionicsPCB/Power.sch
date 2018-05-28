@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:AvionicsBoard-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -63,6 +64,8 @@ $Comp
 L MIC5219-3.3BM5 U7
 U 1 1 5AE8FCE7
 P 7750 3250
+AR Path="/5AE8FCE7" Ref="U7"  Part="1" 
+AR Path="/5AE8FB66/5AE8FCE7" Ref="U7"  Part="1" 
 F 0 "U7" H 7750 3500 60  0000 C CNN
 F 1 "MIC5219-3.3BM5" H 7750 3000 60  0000 C CNN
 F 2 "" H 7750 3150 60  0001 C CNN

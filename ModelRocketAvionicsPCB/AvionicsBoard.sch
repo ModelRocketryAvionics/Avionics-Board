@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:AvionicsBoard-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -97,9 +98,9 @@ F9 "GYR_INT2/DRDY" O R 5600 7500 60
 F10 "GYR_DEN" I L 4050 7400 60 
 $EndSheet
 Text GLabel 4000 2650 2    60   Input ~ 0
-PD4/USB0_DM
+USB0_DM
 Text GLabel 4000 2550 2    60   Input ~ 0
-PD5/USB0_DP
+USB0_DP
 Text GLabel 4000 3150 2    60   Input ~ 0
 RESET
 Text GLabel 4000 2450 2    60   Input ~ 0
@@ -404,10 +405,10 @@ MCU POWER SUPPLY FILTER CAPACITORS
 Text Notes 3300 5050 0    60   ~ 0
 Internal regulator, must be separate\nfrom VDD/VDDA/VBAT
 $Comp
-L microSD_Card CON1
+L microSD_Card SD1
 U 1 1 5AEA02E7
 P 9450 5500
-F 0 "CON1" H 9450 5950 60  0000 C CNN
+F 0 "SD1" H 9450 5950 60  0000 C CNN
 F 1 "microSD_Card" H 10200 5500 60  0000 C CNN
 F 2 "" H 9450 5450 60  0001 C CNN
 F 3 "" H 9450 5450 60  0001 C CNN
@@ -532,13 +533,13 @@ Text GLabel 2200 4000 3    60   Input ~ 0
 PA3/SD~CS
 Text GLabel 2300 4000 3    60   Input ~ 0
 PA4/SDDO
-Text GLabel 2300 1250 1    60   Input ~ 0
-PD0/SSI1CLK
 Text GLabel 2200 1250 1    60   Input ~ 0
-PD1/SSI1Fss
+PD0/SSI1CLK
 Text GLabel 2100 1250 1    60   Input ~ 0
-PD2/SSI1Rx
+PD1/SSI1Fss
 Text GLabel 2000 1250 1    60   Input ~ 0
+PD2/SSI1Rx
+Text GLabel 1900 1250 1    60   Input ~ 0
 PD3/SSI1Tx
 $Comp
 L AT25SF161-16Mb_SPI_FLASH U2
@@ -930,13 +931,13 @@ Wire Wire Line
 Wire Wire Line
 	2100 3950 2100 4000
 Wire Wire Line
+	1900 1250 1900 1300
+Wire Wire Line
 	2000 1250 2000 1300
 Wire Wire Line
 	2100 1250 2100 1300
 Wire Wire Line
 	2200 1250 2200 1300
-Wire Wire Line
-	2300 1250 2300 1300
 Wire Wire Line
 	8450 3700 8500 3700
 Wire Wire Line
@@ -1076,16 +1077,16 @@ Text Notes 5100 4100 0    60   ~ 0
 USB ON-THE-GO
 Text Notes 4100 900  0    60   ~ 0
 TODO:\n - Connect IMU Interrupt pins (Probably not ALL necessary, but might as well)\n - Expansion board breakouts (Bring most pins to headers for debug/expansion)\n
-Text Notes 2150 500  1    60   ~ 0
+Text Notes 2050 500  1    60   ~ 0
 The 2nd SSI (SPI) bus is currently unused.
 Wire Notes Line
-	1950 -1500 1950 1300
+	1850 -1500 1850 1300
 Wire Notes Line
-	1950 1300 2350 1300
+	1850 1300 2250 1300
 Wire Notes Line
-	2350 1300 2350 -1500
+	2250 1300 2250 -1500
 Wire Notes Line
-	2350 -1500 1950 -1500
+	2250 -1500 1850 -1500
 $Comp
 L GND #PWR16
 U 1 1 5AE862E5
@@ -1364,4 +1365,20 @@ Wire Notes Line
 	11200 1550 8550 1550
 Text Notes 8600 600  0    60   ~ 0
 POWER SUPPLY
+Text GLabel 2400 1250 1    60   Input ~ 0
+PE4/U5Rx
+Text GLabel 2300 1250 1    60   Input ~ 0
+PE5/U5Tx
+Wire Wire Line
+	2300 1250 2300 1300
+Wire Wire Line
+	2400 1250 2400 1300
+Text GLabel 1900 4000 3    60   Input ~ 0
+PA0/U0Rx
+Text GLabel 2000 4000 3    60   Input ~ 0
+PA1/U0Tx
+Wire Wire Line
+	2000 4000 2000 3950
+Wire Wire Line
+	1900 4000 1900 3950
 $EndSCHEMATC
