@@ -1,3 +1,8 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP FTSH-105-01-F-DV
+D Connector, double row, 02x05
+K connector
+$ENDCMP
+#
 #End Doc Library
