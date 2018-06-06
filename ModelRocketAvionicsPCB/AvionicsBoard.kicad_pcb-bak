@@ -1,8 +1,8 @@
 (kicad_pcb (version 4) (host pcbnew 4.0.7)
 
   (general
-    (links 175)
-    (no_connects 104)
+    (links 173)
+    (no_connects 102)
     (area 0 0 0 0)
     (thickness 1.6)
     (drawings 0)
@@ -262,7 +262,7 @@
   )
 
   (module "SFUSAT Caps:C_0402" (layer F.Cu) (tedit 596DADC5) (tstamp 5B1814D2)
-    (at 132.2154 97.0788)
+    (at 148.5011 105.0036)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
     (path /5AE983E2)
@@ -298,7 +298,7 @@
   )
 
   (module "SFUSAT Caps:C_0402" (layer F.Cu) (tedit 596DADC5) (tstamp 5B1814D8)
-    (at 111.2096 99.3648)
+    (at 148.5011 105.0036)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
     (path /5AE98474)
@@ -309,7 +309,7 @@
     (fp_text value 0.1uF (at 0 1.27) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text user %R (at -0.0635 -2.032) (layer F.Fab)
+    (fp_text user %R (at 0 -1.9) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -0.5 0.25) (end -0.5 -0.25) (layer F.Fab) (width 0.1))
@@ -334,7 +334,7 @@
   )
 
   (module "SFUSAT Caps:C_0402" (layer F.Cu) (tedit 596DADC5) (tstamp 5B1814DE)
-    (at 138.955 92.7862)
+    (at 148.5011 105.0036)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
     (path /5AE984E0)
@@ -370,7 +370,7 @@
   )
 
   (module "SFUSAT Caps:C_0402" (layer F.Cu) (tedit 596DADC5) (tstamp 5B1814E4)
-    (at 167.8008 119.8118)
+    (at 148.5011 105.0036)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
     (path /5AE98553)
@@ -406,7 +406,7 @@
   )
 
   (module "SFUSAT Caps:C_0402" (layer F.Cu) (tedit 596DADC5) (tstamp 5B1814EA)
-    (at 139.9878 132.969)
+    (at 148.5011 105.0036)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
     (path /5AE985C9)
@@ -442,7 +442,7 @@
   )
 
   (module "SFUSAT Caps:C_0603" (layer F.Cu) (tedit 5929F3AE) (tstamp 5B1814F0)
-    (at 135.7256 109.9058)
+    (at 148.5011 105.0036)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /5AE98760)
@@ -478,7 +478,7 @@
   )
 
   (module "SFUSAT Caps:C_0402" (layer F.Cu) (tedit 596DADC5) (tstamp 5B1814F6)
-    (at 161.908 98.806)
+    (at 148.5011 105.0036)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
     (path /5AE99508)
@@ -514,7 +514,7 @@
   )
 
   (module "SFUSAT Caps:C_0402" (layer F.Cu) (tedit 596DADC5) (tstamp 5B1814FC)
-    (at 124.7056 93.5482)
+    (at 148.5011 105.0036)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
     (path /5AE9A0D4)
@@ -550,7 +550,7 @@
   )
 
   (module "SFUSAT Caps:C_0603" (layer F.Cu) (tedit 5929F3AE) (tstamp 5B181502)
-    (at 145.1356 92.5576)
+    (at 148.5011 105.0036)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /5AE9A16C)
@@ -586,7 +586,7 @@
   )
 
   (module "SFUSAT Caps:C_0603" (layer F.Cu) (tedit 5929F3AE) (tstamp 5B181508)
-    (at 126.3516 102.1842)
+    (at 148.5011 105.0036)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /5AE9A209)
@@ -622,7 +622,7 @@
   )
 
   (module "SFUSAT Caps:C_0603" (layer F.Cu) (tedit 5929F3AE) (tstamp 5B18150E)
-    (at 168.7964 100.0506)
+    (at 148.5011 105.0036)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /5AECAB18)
@@ -658,7 +658,7 @@
   )
 
   (module "SFUSAT Caps:C_0603" (layer F.Cu) (tedit 5929F3AE) (tstamp 5B181514)
-    (at 132.08 90.6526)
+    (at 148.5011 105.0036)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /5AECB307)
@@ -694,7 +694,7 @@
   )
 
   (module "SFUSAT Caps:C_0603" (layer F.Cu) (tedit 5929F3AE) (tstamp 5B18151A)
-    (at 174.498 113.6142)
+    (at 148.5011 105.0036)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /5AECB3B0)
@@ -730,7 +730,7 @@
   )
 
   (module "SFUSAT Caps:C_0402" (layer F.Cu) (tedit 596DADC5) (tstamp 5B181520)
-    (at 117.6358 110.9472)
+    (at 148.5011 105.0036)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
     (path /5AEA905A)
@@ -766,7 +766,7 @@
   )
 
   (module "SFUSAT Caps:C_0402" (layer F.Cu) (tedit 596DADC5) (tstamp 5B181526)
-    (at 111.3706 112.776)
+    (at 148.5011 105.0036)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
     (path /5AE863A7)
@@ -802,7 +802,7 @@
   )
 
   (module "SFUSAT Caps:C_0402" (layer F.Cu) (tedit 596DADC5) (tstamp 5B18152C)
-    (at 170.4594 94.2086)
+    (at 148.5011 105.0036)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
     (path /5AE864E0)
@@ -838,7 +838,7 @@
   )
 
   (module "SFUSAT Caps:C_0402" (layer F.Cu) (tedit 596DADC5) (tstamp 5B181532)
-    (at 131.0724 134.6708)
+    (at 148.5011 105.0036)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
     (path /5AE8B710)
@@ -874,7 +874,7 @@
   )
 
   (module "SFUSAT Caps:C_0402" (layer F.Cu) (tedit 596DADC5) (tstamp 5B181538)
-    (at 111.1334 105.7402)
+    (at 148.5011 105.0036)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
     (path /5AE8B1DF)
@@ -910,7 +910,7 @@
   )
 
   (module "SFUSAT Caps:C_0603" (layer F.Cu) (tedit 5929F3AE) (tstamp 5B18153E)
-    (at 123.6472 112.5982)
+    (at 148.5011 105.0036)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /5AE7747B/5AE7AAE6)
@@ -946,7 +946,7 @@
   )
 
   (module "SFUSAT Caps:C_0603" (layer F.Cu) (tedit 5929F3AE) (tstamp 5B181544)
-    (at 120.4722 122.5804)
+    (at 148.5011 105.0036)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /5AE7747B/5AE7D9AB)
@@ -982,7 +982,7 @@
   )
 
   (module "SFUSAT Caps:C_0603" (layer F.Cu) (tedit 5929F3AE) (tstamp 5B18154A)
-    (at 112.8642 91.948)
+    (at 148.5011 105.0036)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /5AE7747B/5AE77D1E)
@@ -1018,7 +1018,7 @@
   )
 
   (module "SFUSAT Caps:C_0402" (layer F.Cu) (tedit 596DADC5) (tstamp 5B181550)
-    (at 111.7938 120.9548)
+    (at 148.5011 105.0036)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
     (path /5AE7747B/5AE7AAEC)
@@ -1054,7 +1054,7 @@
   )
 
   (module "SFUSAT Caps:C_0402" (layer F.Cu) (tedit 596DADC5) (tstamp 5B181556)
-    (at 116.696 87.6046)
+    (at 148.5011 105.0036)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
     (path /5AE7747B/5AE7D7B5)
@@ -1090,7 +1090,7 @@
   )
 
   (module "SFUSAT Caps:C_0402" (layer F.Cu) (tedit 596DADC5) (tstamp 5B18155C)
-    (at 104.3348 109.093)
+    (at 148.5011 105.0036)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
     (path /5AE7747B/5AE77DC3)
@@ -1126,7 +1126,7 @@
   )
 
   (module "SFUSAT Caps:C_0603" (layer F.Cu) (tedit 5929F3AE) (tstamp 5B181562)
-    (at 175.0194 118.9736)
+    (at 148.5011 105.0036)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /5AE7747B/5AE7AB7A)
@@ -1162,7 +1162,7 @@
   )
 
   (module "SFUSAT Caps:C_0402" (layer F.Cu) (tedit 596DADC5) (tstamp 5B181568)
-    (at 102.489 100.7618)
+    (at 148.5011 105.0036)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
     (path /5AE7747B/5AE7D7C1)
@@ -1198,7 +1198,7 @@
   )
 
   (module "SFUSAT Caps:C_0402" (layer F.Cu) (tedit 596DADC5) (tstamp 5B18156E)
-    (at 104.3516 116.5352)
+    (at 148.5011 105.0036)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
     (path /5AE7747B/5AE7A368)
@@ -1234,7 +1234,7 @@
   )
 
   (module "SFUSAT Caps:C_0402" (layer F.Cu) (tedit 596DADC5) (tstamp 5B181574)
-    (at 111.6922 131.3434)
+    (at 148.5011 105.0036)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
     (path /5AE7747B/5AE7CBFF)
@@ -1270,7 +1270,7 @@
   )
 
   (module "SFUSAT Caps:C_0603" (layer F.Cu) (tedit 5929F3AE) (tstamp 5B18157A)
-    (at 121.5016 105.8164)
+    (at 148.5011 105.0036)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /5AE8FB66/5AE905AA)
@@ -1306,7 +1306,7 @@
   )
 
   (module "SFUSAT Caps:C_0603" (layer F.Cu) (tedit 5929F3AE) (tstamp 5B181580)
-    (at 124.4092 129.1336)
+    (at 148.5011 105.0036)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /5AE8FB66/5AE9276A)
@@ -1342,7 +1342,7 @@
   )
 
   (module "SFUSAT Caps:C_0603" (layer F.Cu) (tedit 5929F3AE) (tstamp 5B181586)
-    (at 105.779 123.6472)
+    (at 148.5011 105.0036)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /5AE8FB66/5AE91E4B)
@@ -1378,7 +1378,7 @@
   )
 
   (module "SFUSAT Caps:C_0402" (layer F.Cu) (tedit 596DADC5) (tstamp 5B18158C)
-    (at 143.129 139.573)
+    (at 148.5011 105.0036)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
     (path /5AE8FB66/5AE91952)
@@ -1414,7 +1414,7 @@
   )
 
   (module Avionics:Micro_SD_WM11190CT (layer F.Cu) (tedit 5B0F60BB) (tstamp 5B18159E)
-    (at 150.1648 93.4466)
+    (at 148.5011 105.0036)
     (path /5AEA02E7)
     (fp_text reference CON1 (at 6.7945 -5.334) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1455,7 +1455,7 @@
   )
 
   (module SFUSAT-Res:R_0603 (layer F.Cu) (tedit 5929F4BE) (tstamp 5B1815A4)
-    (at 136.652 138.6078)
+    (at 148.5011 105.0036)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
     (path /5AE8FB66/5AE90ED9)
@@ -1491,7 +1491,7 @@
   )
 
   (module Avionics:B340A (layer F.Cu) (tedit 5B181376) (tstamp 5B1815AF)
-    (at 129.0762 106.4514)
+    (at 148.5011 105.0036)
     (path /5AE8FB66/5AE907ED)
     (fp_text reference D2 (at 0 2.159) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1511,7 +1511,7 @@
   )
 
   (module Avionics:FTSH-105-01-F-DV-K (layer F.Cu) (tedit 0) (tstamp 5B1815BD)
-    (at 130.9116 118.3894)
+    (at 148.5011 105.0036)
     (path /5AE8A3ED)
     (fp_text reference P1 (at 0 0) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1556,8 +1556,42 @@
       (net 2 PWR_GND))
   )
 
+  (module Avionics:USB_Connector_ZX62-B-5PA (layer F.Cu) (tedit 5B0F69B3) (tstamp 5B1815CC)
+    (at 154.0776 120.144)
+    (path /5AEC2F49)
+    (fp_text reference P2 (at 0 1.4605) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value USB_OTG (at 0 -1.7145) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text user "PCB End" (at 0 5.08) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_line (start 5.5 4.064) (end 5.5 -0.6985) (layer F.SilkS) (width 0.15))
+    (fp_line (start -5.5 -0.701) (end -5.5 4.125) (layer F.SilkS) (width 0.15))
+    (fp_line (start -5.5 4.125) (end 5.5 4.125) (layer F.SilkS) (width 0.15))
+    (fp_line (start -5.5 -0.6985) (end 5.5 -0.6985) (layer F.SilkS) (width 0.15))
+    (pad 3 smd rect (at 0 0) (size 0.4 1.35) (layers F.Cu F.Paste F.Mask)
+      (net 29 PD5/USB0_DP))
+    (pad 2 smd rect (at -0.65 0) (size 0.4 1.35) (layers F.Cu F.Paste F.Mask)
+      (net 30 PD4/USB0_DM))
+    (pad 1 smd rect (at -1.3 0) (size 0.4 1.35) (layers F.Cu F.Paste F.Mask)
+      (net 4 +USB_VBUS))
+    (pad 4 smd rect (at 0.65 0) (size 0.4 1.35) (layers F.Cu F.Paste F.Mask)
+      (net 31 PB0/USB0_ID))
+    (pad 5 smd rect (at 1.3 0) (size 0.4 1.35) (layers F.Cu F.Paste F.Mask)
+      (net 2 PWR_GND))
+    (pad "" smd rect (at -3.1 0.125) (size 2.1 1.6) (layers F.Cu F.Paste F.Mask))
+    (pad "" smd rect (at 3.1 0.125) (size 2.1 1.6) (layers F.Cu F.Paste F.Mask))
+    (pad "" smd rect (at -1.2 2.675) (size 1.9 1.9) (layers F.Cu F.Paste F.Mask))
+    (pad "" smd rect (at 1.2 2.675) (size 1.9 1.9) (layers F.Cu F.Paste F.Mask))
+    (pad "" smd rect (at 4.05 2.675) (size 1.9 1.9) (layers F.Cu F.Paste F.Mask))
+    (pad "" smd rect (at -4.05 2.675) (size 1.9 1.9) (layers F.Cu F.Paste F.Mask))
+  )
+
   (module "Avionics:JST_B2B-EH-A(LF)(SN)" (layer F.Cu) (tedit 5B0F8882) (tstamp 5B1815D2)
-    (at 174.9444 89.2302)
+    (at 148.5011 105.0036)
     (path /5AE964AC)
     (fp_text reference P3 (at 1.778 2.667) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1576,7 +1610,7 @@
   )
 
   (module SFUSAT-Res:R_0402 (layer F.Cu) (tedit 596DADDC) (tstamp 5B1815D8)
-    (at 148.3106 106.5784)
+    (at 148.5011 105.0036)
     (descr "Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0402")
     (path /5AE8B7A9)
@@ -1612,7 +1646,7 @@
   )
 
   (module SFUSAT-Res:R_0402 (layer F.Cu) (tedit 596DADDC) (tstamp 5B1815DE)
-    (at 144.4752 103.4796)
+    (at 148.5011 105.0036)
     (descr "Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0402")
     (path /5AE8B9EF)
@@ -1648,7 +1682,7 @@
   )
 
   (module SFUSAT-Res:R_0402 (layer F.Cu) (tedit 596DADDC) (tstamp 5B1815E4)
-    (at 151.1118 103.5558)
+    (at 148.5011 105.0036)
     (descr "Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0402")
     (path /5AE8BC57)
@@ -1684,7 +1718,7 @@
   )
 
   (module SFUSAT-Res:R_0402 (layer F.Cu) (tedit 596DADDC) (tstamp 5B1815EA)
-    (at 138.557 104.4956)
+    (at 148.5011 105.0036)
     (descr "Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0402")
     (path /5AE8BB97)
@@ -1720,7 +1754,7 @@
   )
 
   (module SFUSAT-Res:R_0402 (layer F.Cu) (tedit 596DADDC) (tstamp 5B1815F0)
-    (at 151.8484 106.7308)
+    (at 148.5011 105.0036)
     (descr "Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0402")
     (path /5AB05355)
@@ -1756,7 +1790,7 @@
   )
 
   (module SFUSAT-Res:R_0402 (layer F.Cu) (tedit 596DADDC) (tstamp 5B1815F6)
-    (at 155.2774 106.7562)
+    (at 148.5011 105.0036)
     (descr "Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0402")
     (path /5AB05388)
@@ -1792,7 +1826,7 @@
   )
 
   (module SFUSAT-Res:R_0402 (layer F.Cu) (tedit 596DADDC) (tstamp 5B1815FC)
-    (at 144.5768 106.3498)
+    (at 148.5011 105.0036)
     (descr "Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0402")
     (path /5AE8F314)
@@ -1828,7 +1862,7 @@
   )
 
   (module SFUSAT-Res:R_0402 (layer F.Cu) (tedit 596DADDC) (tstamp 5B181602)
-    (at 148.151 102.2096)
+    (at 148.5011 105.0036)
     (descr "Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0402")
     (path /5AEBE7EE)
@@ -1864,7 +1898,7 @@
   )
 
   (module SFUSAT-Res:R_0402 (layer F.Cu) (tedit 596DADDC) (tstamp 5B181608)
-    (at 155.517 103.0986)
+    (at 148.5011 105.0036)
     (descr "Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0402")
     (path /5AEA1017)
@@ -1900,7 +1934,7 @@
   )
 
   (module SFUSAT-Res:R_0402 (layer F.Cu) (tedit 596DADDC) (tstamp 5B18160E)
-    (at 146.0754 97.5614)
+    (at 148.5011 105.0036)
     (descr "Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0402")
     (path /5AEA0EEB)
@@ -1936,7 +1970,7 @@
   )
 
   (module SFUSAT-Res:R_0402 (layer F.Cu) (tedit 596DADDC) (tstamp 5B181614)
-    (at 147.0406 111.125)
+    (at 148.5011 105.0036)
     (descr "Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0402")
     (path /5AEA0E0A)
@@ -1972,7 +2006,7 @@
   )
 
   (module SFUSAT-Res:R_0402 (layer F.Cu) (tedit 596DADDC) (tstamp 5B18161A)
-    (at 151.823 98.5012)
+    (at 148.5011 105.0036)
     (descr "Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0402")
     (path /5AEBE71F)
@@ -2008,7 +2042,7 @@
   )
 
   (module SFUSAT-Res:R_0402 (layer F.Cu) (tedit 596DADDC) (tstamp 5B181620)
-    (at 142.3598 99.568)
+    (at 148.5011 105.0036)
     (descr "Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0402")
     (path /5AE8FB66/5AE911EE)
@@ -2044,7 +2078,7 @@
   )
 
   (module SFUSAT-Res:R_0402 (layer F.Cu) (tedit 596DADDC) (tstamp 5B181626)
-    (at 152.8826 110.998)
+    (at 148.5011 105.0036)
     (descr "Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0402")
     (path /5AE8FB66/5AE90B61)
@@ -2080,7 +2114,7 @@
   )
 
   (module Avionics:Push_Button_B3S-1000 (layer F.Cu) (tedit 5B0F709C) (tstamp 5B18162E)
-    (at 186.0424 101.89)
+    (at 148.5011 105.0036)
     (path /5AE8E80C)
     (fp_text reference SW1 (at 0 4.445) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2101,7 +2135,7 @@
   )
 
   (module Avionics:TM4C123GH6PMI (layer F.Cu) (tedit 0) (tstamp 5B181672)
-    (at 174.145001 132.65785)
+    (at 148.5011 105.0036)
     (path /5AB02A0F)
     (fp_text reference U1 (at 0 0) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2516,7 +2550,7 @@
   )
 
   (module Avionics:Flash_Mem_AT25SF161-SSHD (layer F.Cu) (tedit 5B0F6D2D) (tstamp 5B18167E)
-    (at 154.813 130.4226)
+    (at 148.5011 105.0036)
     (path /5AEB9F86)
     (fp_text reference U2 (at -0.762 -3.7465) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2548,7 +2582,7 @@
   )
 
   (module Avionics:LIS331HH (layer F.Cu) (tedit 0) (tstamp 5B181692)
-    (at 161.298001 107.3912)
+    (at 148.5011 105.0036)
     (path /5AE7747B/5AE779FB)
     (fp_text reference U3 (at 0 0) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2607,7 +2641,7 @@
   )
 
   (module Avionics:Gyro_L3GD20HTR (layer F.Cu) (tedit 5B0F8E5F) (tstamp 5B1816A6)
-    (at 163.8012 114.858)
+    (at 148.5011 105.0036)
     (path /5AE7747B/5AE77A26)
     (fp_text reference U4 (at 0 2.54) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2656,7 +2690,7 @@
   )
 
   (module Avionics:MPL3115A2 (layer F.Cu) (tedit 0) (tstamp 5B1816B2)
-    (at 122.7963 136.0324)
+    (at 148.5011 105.0036)
     (path /5AE7747B/5AE7793E)
     (fp_text reference U5 (at 0 0) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2703,7 +2737,7 @@
   )
 
   (module Avionics:MCP73831T-2ACI&slash_OT (layer F.Cu) (tedit 0) (tstamp 5B1816BB)
-    (at 120.4976 99.679801)
+    (at 148.5011 105.0036)
     (path /5AE8FB66/5AE8FCA0)
     (fp_text reference U6 (at 0 0) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2755,7 +2789,7 @@
   )
 
   (module Avionics:MIC5219-3.3YM5-TR (layer F.Cu) (tedit 5B0F96E7) (tstamp 5B1816C4)
-    (at 168.5544 107.4258)
+    (at 148.5011 105.0036)
     (path /5AE8FB66/5AE8FCE7)
     (fp_text reference U7 (at -0.0635 3.2385) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2781,7 +2815,7 @@
   )
 
   (module Avionics:16MHz_Clock (layer F.Cu) (tedit 5B0F1F10) (tstamp 5B1816CA)
-    (at 144.621 117.602)
+    (at 148.5011 105.0036)
     (path /5AE85C82)
     (fp_text reference Y1 (at 0 3.81) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2796,7 +2830,7 @@
   )
 
   (module Avionics:Crystal_32768Hz_Radial_Can (layer F.Cu) (tedit 5AEFB5A8) (tstamp 5B1816D1)
-    (at 187.1878 113.1688)
+    (at 148.5011 105.0036)
     (descr Crystal_32.768kHz_Radial_Can)
     (tags ['Crystal'])
     (path /5AE8956C)
@@ -2838,42 +2872,6 @@
       (scale (xyz 0.393701 0.393701 0.393701))
       (rotate (xyz 0 0 0))
     )
-  )
-
-  (module Avionics:USB_Connector_ZX62-B-5PA (layer F.Cu) (tedit 5B1815B8) (tstamp 5B181F69)
-    (at 154.0776 120.144)
-    (path /5AEC2F49)
-    (fp_text reference P2 (at 0 1.4605) (layer F.SilkS)
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value USB_OTG (at 0 -1.7145) (layer F.Fab)
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text user "PCB End" (at 0 5.08) (layer F.SilkS)
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_line (start 5.5 4.064) (end 5.5 -0.6985) (layer F.SilkS) (width 0.15))
-    (fp_line (start -5.5 -0.701) (end -5.5 4.125) (layer F.SilkS) (width 0.15))
-    (fp_line (start -5.5 4.125) (end 5.5 4.125) (layer F.SilkS) (width 0.15))
-    (fp_line (start -5.5 -0.6985) (end 5.5 -0.6985) (layer F.SilkS) (width 0.15))
-    (pad 3 smd rect (at 0 0) (size 0.4 1.35) (layers F.Cu F.Paste F.Mask)
-      (net 29 PD5/USB0_DP))
-    (pad 2 smd rect (at -0.65 0) (size 0.4 1.35) (layers F.Cu F.Paste F.Mask)
-      (net 30 PD4/USB0_DM))
-    (pad 1 smd rect (at -1.3 0) (size 0.4 1.35) (layers F.Cu F.Paste F.Mask)
-      (net 4 +USB_VBUS))
-    (pad 4 smd rect (at 0.65 0) (size 0.4 1.35) (layers F.Cu F.Paste F.Mask)
-      (net 31 PB0/USB0_ID))
-    (pad 5 smd rect (at 1.3 0) (size 0.4 1.35) (layers F.Cu F.Paste F.Mask)
-      (net 2 PWR_GND))
-    (pad 6 smd rect (at -3.1 0.125) (size 2.1 1.6) (layers F.Cu F.Paste F.Mask)
-      (net 2 PWR_GND))
-    (pad 6 smd rect (at 3.1 0.125) (size 2.1 1.6) (layers F.Cu F.Paste F.Mask)
-      (net 2 PWR_GND))
-    (pad "" smd rect (at -1.2 2.675) (size 1.9 1.9) (layers F.Cu F.Paste F.Mask))
-    (pad "" smd rect (at 1.2 2.675) (size 1.9 1.9) (layers F.Cu F.Paste F.Mask))
-    (pad "" smd rect (at 4.05 2.675) (size 1.9 1.9) (layers F.Cu F.Paste F.Mask))
-    (pad "" smd rect (at -4.05 2.675) (size 1.9 1.9) (layers F.Cu F.Paste F.Mask))
   )
 
 )
