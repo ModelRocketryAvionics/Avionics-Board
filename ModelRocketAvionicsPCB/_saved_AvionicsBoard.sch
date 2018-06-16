@@ -1414,4 +1414,60 @@ Wire Wire Line
 	2100 1300 2100 1250
 Wire Wire Line
 	2200 1300 2200 1250
+Text GLabel 1400 2450 0    60   Input ~ 0
+PB7/ACC_INT2
+Wire Wire Line
+	1450 2450 1400 2450
+Text GLabel 1400 2150 0    60   Input ~ 0
+PB6/ACC_INT1
+Text GLabel 1400 2650 0    60   Input ~ 0
+PF4/GYR_INT1
+Text GLabel 1400 2750 0    60   Input ~ 0
+PE3/GYR_INT2/DRDY
+Text GLabel 1400 2550 0    60   Input ~ 0
+PE2/GYR_DEN
+Text GLabel 2600 1250 1    60   Input ~ 0
+PB5/BAR_INT1
+Text GLabel 2500 1250 1    60   Input ~ 0
+PB4/BAR_INT2
+Wire Wire Line
+	2600 1300 2600 1250
+Wire Wire Line
+	2500 1300 2500 1250
+Text GLabel 3975 7400 0    60   Input ~ 0
+PE2/GYR_DEN
+Text GLabel 5675 7500 2    60   Input ~ 0
+PE3/GYR_INT2/DRDY
+Text GLabel 5675 7400 2    60   Input ~ 0
+PF4/GYR_INT1
+Text GLabel 5675 7000 2    60   Input ~ 0
+PB7/ACC_INT2
+Text GLabel 5675 6900 2    60   Input ~ 0
+PB6/ACC_INT1
+Text GLabel 5675 7250 2    60   Input ~ 0
+PB4/BAR_INT2
+Text GLabel 5675 7150 2    60   Input ~ 0
+PB5/BAR_INT1
+Wire Wire Line
+	5600 7500 5675 7500
+Wire Wire Line
+	5675 7400 5600 7400
+Wire Wire Line
+	5675 7250 5600 7250
+Wire Wire Line
+	5600 7150 5675 7150
+Wire Wire Line
+	5675 7000 5600 7000
+Wire Wire Line
+	5600 6900 5675 6900
+Wire Wire Line
+	1400 2150 1450 2150
+Wire Wire Line
+	1400 2550 1450 2550
+Wire Wire Line
+	1450 2650 1400 2650
+Wire Wire Line
+	1400 2750 1450 2750
+Wire Wire Line
+	3975 7400 4050 7400
 $EndSCHEMATC
