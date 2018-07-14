@@ -1,4 +1,4 @@
-update=2018-05-06 9:03:44 PM
+update=2018-07-13 9:27:35 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -37,7 +37,7 @@ SpiceUseNetNumbers=0
 LabSize=60
 [eeschema]
 version=1
-LibDir=Avionics KiCad-Lib/AvionicsIC.pretty
+LibDir=
 [eeschema/libraries]
 LibName1=AvionicsBoard-rescue
 LibName2=power
@@ -73,3 +73,5 @@ LibName31=tm4c123gh6pm
 LibName32=lis331
 LibName33=l3gd20htr
 LibName34=mpl3115a2
+LibName35=dmg1029sv-7
+LibName36=css-1210tb

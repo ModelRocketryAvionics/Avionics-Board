@@ -33,12 +33,13 @@ LIBS:tm4c123gh6pm
 LIBS:lis331
 LIBS:l3gd20htr
 LIBS:mpl3115a2
+LIBS:css-1210tb
 LIBS:AvionicsBoard-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 3
+Sheet 1 4
 Title ""
 Date ""
 Rev ""
@@ -231,7 +232,7 @@ SENSORS
 Text GLabel 3200 1250 1    60   Input ~ 0
 PC1/JTAG_TMS
 Text GLabel 3100 1250 1    60   Input ~ 0
-PC1/JTAG_TCK
+PC0/JTAG_TCK
 Text GLabel 3400 1250 1    60   Input ~ 0
 PC3/JTAG_TDO
 Text GLabel 3300 1250 1    60   Input ~ 0
@@ -681,6 +682,313 @@ F 3 "" H 6150 5800 50  0000 C CNN
 	1    6150 5800
 	1    0    0    -1  
 $EndComp
+Text GLabel 5950 4200 0    60   Input ~ 0
++USB_VBUS
+$Comp
+L GND #PWR015
+U 1 1 5AEC9F63
+P 6000 4650
+F 0 "#PWR015" H 6000 4400 50  0001 C CNN
+F 1 "GND" H 6000 4500 50  0000 C CNN
+F 2 "" H 6000 4650 50  0000 C CNN
+F 3 "" H 6000 4650 50  0000 C CNN
+	1    6000 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C11
+U 1 1 5AECAB18
+P 6000 4400
+F 0 "C11" H 6025 4500 50  0000 L CNN
+F 1 "1uF" H 6025 4300 50  0000 L CNN
+F 2 "SFUSAT Caps:C_0603" H 6038 4250 50  0001 C CNN
+F 3 "" H 6000 4400 50  0000 C CNN
+F 4 "490-1543-1-ND" H 6000 4400 60  0001 C CNN "Digi-Key Part Number"
+F 5 "0603" H 6000 4400 60  0001 C CNN "Footprint"
+	1    6000 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C12
+U 1 1 5AECB307
+P 6300 4400
+F 0 "C12" H 6325 4500 50  0000 L CNN
+F 1 "1uF" H 6325 4300 50  0000 L CNN
+F 2 "SFUSAT Caps:C_0603" H 6338 4250 50  0001 C CNN
+F 3 "" H 6300 4400 50  0000 C CNN
+F 4 "490-1543-1-ND" H 6300 4400 60  0001 C CNN "Digi-Key Part Number"
+F 5 "0603" H 6300 4400 60  0001 C CNN "Footprint"
+	1    6300 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C13
+U 1 1 5AECB3B0
+P 6600 4400
+F 0 "C13" H 6625 4500 50  0000 L CNN
+F 1 "1uF" H 6625 4300 50  0000 L CNN
+F 2 "SFUSAT Caps:C_0603" H 6638 4250 50  0001 C CNN
+F 3 "" H 6600 4400 50  0000 C CNN
+F 4 "490-1543-1-ND" H 6600 4400 60  0001 C CNN "Digi-Key Part Number"
+F 5 "0603" H 6600 4400 60  0001 C CNN "Footprint"
+	1    6600 4400
+	1    0    0    -1  
+$EndComp
+Text Notes 5100 4100 0    60   ~ 0
+USB ON-THE-GO
+Text Notes 3925 275  0    60   ~ 0
+TODO:\n - Connect IMU Interrupt pins (Probably not ALL necessary, but might as well)\n - Expansion board breakouts (Bring most pins to headers for debug/expansion)\n
+Text Notes 2050 500  1    60   ~ 0
+The 2nd SSI (SPI) bus is currently unused.
+$Comp
+L GND #PWR016
+U 1 1 5AE862E5
+P 8900 2800
+F 0 "#PWR016" H 8900 2550 50  0001 C CNN
+F 1 "GND" H 8900 2650 50  0000 C CNN
+F 2 "" H 8900 2800 50  0000 C CNN
+F 3 "" H 8900 2800 50  0000 C CNN
+	1    8900 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C15
+U 1 1 5AE863A7
+P 8700 2550
+F 0 "C15" H 8725 2650 50  0000 L CNN
+F 1 "10pF" H 8725 2450 50  0000 L CNN
+F 2 "SFUSAT Caps:C_0402" H 8738 2400 50  0001 C CNN
+F 3 "" H 8700 2550 50  0000 C CNN
+F 4 "712-1252-1-ND" H 8700 2550 60  0001 C CNN "Digi-Key Part Number"
+F 5 "0402" H 8700 2550 60  0001 C CNN "Footprint"
+	1    8700 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C16
+U 1 1 5AE864E0
+P 9100 2550
+F 0 "C16" H 9125 2650 50  0000 L CNN
+F 1 "10pF" H 9125 2450 50  0000 L CNN
+F 2 "SFUSAT Caps:C_0402" H 9138 2400 50  0001 C CNN
+F 3 "" H 9100 2550 50  0000 C CNN
+F 4 "712-1252-1-ND" H 9100 2550 60  0001 C CNN "Digi-Key Part Number"
+F 5 "0402" H 9100 2550 60  0001 C CNN "Footprint"
+	1    9100 2550
+	1    0    0    -1  
+$EndComp
+Text GLabel 4000 2850 2    60   Input ~ 0
+OSC1
+Text GLabel 4000 2950 2    60   Input ~ 0
+OSC0
+Text GLabel 9350 1950 2    60   Input ~ 0
+OSC1
+Text GLabel 9350 2350 2    60   Input ~ 0
+OSC0
+Text GLabel 4000 3550 2    60   Input ~ 0
+XOSC0
+Text GLabel 4000 3350 2    60   Input ~ 0
+XOSC1
+Text GLabel 4000 3450 2    60   Input ~ 0
+XGND
+Text GLabel 10700 1950 2    60   Input ~ 0
+XOSC0
+Text GLabel 10700 2750 2    60   Input ~ 0
+XOSC1
+Text GLabel 10700 2350 2    60   Input ~ 0
+XGND
+$Comp
+L Crystal Y2
+U 1 1 5AE8956C
+P 10050 2350
+F 0 "Y2" H 10050 2500 50  0000 C CNN
+F 1 "32.768kHz" H 10050 2200 50  0000 C CNN
+F 2 "Avionics:Crystal_32768Hz_Radial_Can" H 10050 2350 50  0001 C CNN
+F 3 "" H 10050 2350 50  0000 C CNN
+F 4 "535-9034-ND" H 10050 2350 60  0001 C CNN "Digi-Key Part Number"
+	1    10050 2350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Crystal Y1
+U 1 1 5AE85C82
+P 9100 2150
+F 0 "Y1" H 9100 2300 50  0000 C CNN
+F 1 "16Mhz" H 9100 2000 50  0000 C CNN
+F 2 "Avionics:16MHz_Clock" H 9100 2150 50  0001 C CNN
+F 3 "" H 9100 2150 50  0000 C CNN
+F 4 "631-1150-1-ND" H 9100 2150 60  0001 C CNN "Digi-Key Part Number"
+F 5 "NX5032GA-16.000000MHZ-LN-CD-1" H 9100 2150 60  0001 C CNN "Manufacturer Part No"
+	1    9100 2150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C C18
+U 1 1 5AE8B1DF
+P 10350 2550
+F 0 "C18" H 10375 2650 50  0000 L CNN
+F 1 "24pF" H 10375 2450 50  0000 L CNN
+F 2 "SFUSAT Caps:C_0402" H 10388 2400 50  0001 C CNN
+F 3 "" H 10350 2550 50  0000 C CNN
+	1    10350 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C17
+U 1 1 5AE8B710
+P 10350 2150
+F 0 "C17" H 10375 2250 50  0000 L CNN
+F 1 "24pF" H 10375 2050 50  0000 L CNN
+F 2 "SFUSAT Caps:C_0402" H 10388 2000 50  0001 C CNN
+F 3 "" H 10350 2150 50  0000 C CNN
+F 4 "478-10149-1-ND" H 10350 2150 60  0001 C CNN "Digi-Key Part Number"
+F 5 "0402" H 10350 2150 60  0001 C CNN "Footprint"
+	1    10350 2150
+	1    0    0    -1  
+$EndComp
+Text Notes 8600 1700 0    60   ~ 0
+OSCILLATORS
+$Comp
+L SW_PUSH SW1
+U 1 1 5AE8E80C
+P 5950 3750
+F 0 "SW1" H 6100 3860 50  0000 C CNN
+F 1 "SW_RST" H 5950 3670 50  0000 C CNN
+F 2 "Avionics:Push_Button_B3S-1000" H 5950 3750 50  0001 C CNN
+F 3 "" H 5950 3750 50  0000 C CNN
+F 4 "SW415-ND" H 5950 3750 60  0001 C CNN "Digi-Key Part Number"
+	1    5950 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R7
+U 1 1 5AE8F314
+P 6350 3550
+F 0 "R7" V 6430 3550 50  0000 C CNN
+F 1 "10k" V 6350 3550 50  0000 C CNN
+F 2 "SFUSAT-Res:R_0402" V 6280 3550 50  0001 C CNN
+F 3 "" H 6350 3550 50  0000 C CNN
+F 4 "311-10.0KLRCT-ND" V 6350 3550 60  0001 C CNN "Digi-Key Part Number"
+	1    6350 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3V3 #PWR017
+U 1 1 5AE8F4F4
+P 6350 3350
+F 0 "#PWR017" H 6350 3200 50  0001 C CNN
+F 1 "+3V3" H 6350 3490 50  0000 C CNN
+F 2 "" H 6350 3350 50  0000 C CNN
+F 3 "" H 6350 3350 50  0000 C CNN
+	1    6350 3350
+	1    0    0    -1  
+$EndComp
+Text GLabel 6450 3750 2    60   Input ~ 0
+RESET
+$Comp
+L GND #PWR018
+U 1 1 5AE92113
+P 5600 3750
+F 0 "#PWR018" H 5600 3500 50  0001 C CNN
+F 1 "GND" H 5600 3600 50  0000 C CNN
+F 2 "" H 5600 3750 50  0000 C CNN
+F 3 "" H 5600 3750 50  0000 C CNN
+	1    5600 3750
+	1    0    0    -1  
+$EndComp
+Text Notes 5100 3200 0    60   ~ 0
+PROCESSOR RESET
+$Sheet
+S 9275 700  1000 400 
+U 5AE8FB66
+F0 "Power" 60
+F1 "Power.sch" 60
+F2 "+VBUS" I L 9275 850 60 
+F3 "EN_3V3" I L 9275 950 60 
+F4 "+VBAT" O R 10275 850 60 
+$EndSheet
+$Comp
+L CONN_01X02 P3
+U 1 1 5AE964AC
+P 5750 950
+F 0 "P3" H 5750 800 50  0000 C CNN
+F 1 "JST-2" H 5750 1100 50  0000 C CNN
+F 2 "Avionics:JST_B2B-EH-A(LF)(SN)" H 5750 950 50  0001 C CNN
+F 3 "" H 5750 950 50  0000 C CNN
+F 4 "455-1611-ND" H 5750 950 60  0001 C CNN "Digi-Key Part Number"
+F 5 "EH Header" H 5750 950 60  0001 C CNN "Header Type"
+	1    5750 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR019
+U 1 1 5AE96FA7
+P 5500 1050
+F 0 "#PWR019" H 5500 800 50  0001 C CNN
+F 1 "GND" H 5500 900 50  0000 C CNN
+F 2 "" H 5500 1050 50  0000 C CNN
+F 3 "" H 5500 1050 50  0000 C CNN
+	1    5500 1050
+	1    0    0    -1  
+$EndComp
+Text GLabel 9175 850  0    60   Input ~ 0
++USB_VBUS
+Text Notes 8600 600  0    60   ~ 0
+POWER SUPPLY
+Text GLabel 1400 2450 0    60   Input ~ 0
+PB7/ACC_INT2
+Text GLabel 1400 2150 0    60   Input ~ 0
+PB6/ACC_INT1
+Text GLabel 1400 2650 0    60   Input ~ 0
+PF4/GYR_INT1
+Text GLabel 1400 2750 0    60   Input ~ 0
+PE3/GYR_INT2/DRDY
+Text GLabel 1400 2550 0    60   Input ~ 0
+PE2/GYR_DEN
+Text GLabel 2600 1250 1    60   Input ~ 0
+PB5/BAR_INT1
+Text GLabel 2500 1250 1    60   Input ~ 0
+PB4/BAR_INT2
+Text GLabel 3975 7400 0    60   Input ~ 0
+PE2/GYR_DEN
+Text GLabel 5675 7500 2    60   Input ~ 0
+PE3/GYR_INT2/DRDY
+Text GLabel 5675 7400 2    60   Input ~ 0
+PF4/GYR_INT1
+Text GLabel 5675 7000 2    60   Input ~ 0
+PB7/ACC_INT2
+Text GLabel 5675 6900 2    60   Input ~ 0
+PB6/ACC_INT1
+Text GLabel 5675 7250 2    60   Input ~ 0
+PB4/BAR_INT2
+Text GLabel 5675 7150 2    60   Input ~ 0
+PB5/BAR_INT1
+Text Notes 6000 600  0    60   ~ 0
+Right Side Female Header
+Text Notes 7275 600  0    60   ~ 0
+Left Side Female Header\n
+$Comp
+L CONNHeaderFemale16 U8
+U 1 1 5B41BDEB
+P 6850 1700
+F 0 "U8" H 6850 800 60  0000 C CNN
+F 1 "CONNHeaderFemale16" H 6700 2525 60  0000 C CNN
+F 2 "Avionics:16x1_Female_Header" H 6600 1550 60  0001 C CNN
+F 3 "" H 6600 1550 60  0001 C CNN
+	1    6850 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONNHeaderFemale16 U9
+U 1 1 5B41BEC2
+P 8100 1725
+F 0 "U9" H 8100 825 60  0000 C CNN
+F 1 "CONNHeaderFemale16" H 7975 2550 60  0000 C CNN
+F 2 "Avionics:16x1_Female_Header" H 7850 1575 60  0001 C CNN
+F 3 "" H 7850 1575 60  0001 C CNN
+	1    8100 1725
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	4000 3150 3950 3150
 Wire Wire Line
@@ -1021,60 +1329,8 @@ Wire Wire Line
 	6200 5300 6100 5300
 Wire Wire Line
 	6200 5400 6100 5400
-Text GLabel 5950 4200 0    60   Input ~ 0
-+USB_VBUS
-$Comp
-L GND #PWR015
-U 1 1 5AEC9F63
-P 6000 4650
-F 0 "#PWR015" H 6000 4400 50  0001 C CNN
-F 1 "GND" H 6000 4500 50  0000 C CNN
-F 2 "" H 6000 4650 50  0000 C CNN
-F 3 "" H 6000 4650 50  0000 C CNN
-	1    6000 4650
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C11
-U 1 1 5AECAB18
-P 6000 4400
-F 0 "C11" H 6025 4500 50  0000 L CNN
-F 1 "1uF" H 6025 4300 50  0000 L CNN
-F 2 "SFUSAT Caps:C_0603" H 6038 4250 50  0001 C CNN
-F 3 "" H 6000 4400 50  0000 C CNN
-F 4 "490-1543-1-ND" H 6000 4400 60  0001 C CNN "Digi-Key Part Number"
-F 5 "0603" H 6000 4400 60  0001 C CNN "Footprint"
-	1    6000 4400
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6000 4550 6000 4650
-$Comp
-L C C12
-U 1 1 5AECB307
-P 6300 4400
-F 0 "C12" H 6325 4500 50  0000 L CNN
-F 1 "1uF" H 6325 4300 50  0000 L CNN
-F 2 "SFUSAT Caps:C_0603" H 6338 4250 50  0001 C CNN
-F 3 "" H 6300 4400 50  0000 C CNN
-F 4 "490-1543-1-ND" H 6300 4400 60  0001 C CNN "Digi-Key Part Number"
-F 5 "0603" H 6300 4400 60  0001 C CNN "Footprint"
-	1    6300 4400
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C13
-U 1 1 5AECB3B0
-P 6600 4400
-F 0 "C13" H 6625 4500 50  0000 L CNN
-F 1 "1uF" H 6625 4300 50  0000 L CNN
-F 2 "SFUSAT Caps:C_0603" H 6638 4250 50  0001 C CNN
-F 3 "" H 6600 4400 50  0000 C CNN
-F 4 "490-1543-1-ND" H 6600 4400 60  0001 C CNN "Digi-Key Part Number"
-F 5 "0603" H 6600 4400 60  0001 C CNN "Footprint"
-	1    6600 4400
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6000 4600 6600 4600
 Wire Wire Line
@@ -1101,12 +1357,6 @@ Wire Notes Line
 	6850 4000 5050 4000
 Wire Notes Line
 	5050 4000 5050 6000
-Text Notes 5100 4100 0    60   ~ 0
-USB ON-THE-GO
-Text Notes 4100 900  0    60   ~ 0
-TODO:\n - Connect IMU Interrupt pins (Probably not ALL necessary, but might as well)\n - Expansion board breakouts (Bring most pins to headers for debug/expansion)\n
-Text Notes 2050 500  1    60   ~ 0
-The 2nd SSI (SPI) bus is currently unused.
 Wire Notes Line
 	1850 -1500 1850 1300
 Wire Notes Line
@@ -1115,92 +1365,10 @@ Wire Notes Line
 	2250 1300 2250 -1500
 Wire Notes Line
 	2250 -1575 1850 -1575
-$Comp
-L GND #PWR016
-U 1 1 5AE862E5
-P 8900 2800
-F 0 "#PWR016" H 8900 2550 50  0001 C CNN
-F 1 "GND" H 8900 2650 50  0000 C CNN
-F 2 "" H 8900 2800 50  0000 C CNN
-F 3 "" H 8900 2800 50  0000 C CNN
-	1    8900 2800
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C15
-U 1 1 5AE863A7
-P 8700 2550
-F 0 "C15" H 8725 2650 50  0000 L CNN
-F 1 "10pF" H 8725 2450 50  0000 L CNN
-F 2 "SFUSAT Caps:C_0402" H 8738 2400 50  0001 C CNN
-F 3 "" H 8700 2550 50  0000 C CNN
-F 4 "712-1252-1-ND" H 8700 2550 60  0001 C CNN "Digi-Key Part Number"
-F 5 "0402" H 8700 2550 60  0001 C CNN "Footprint"
-	1    8700 2550
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C16
-U 1 1 5AE864E0
-P 9100 2550
-F 0 "C16" H 9125 2650 50  0000 L CNN
-F 1 "10pF" H 9125 2450 50  0000 L CNN
-F 2 "SFUSAT Caps:C_0402" H 9138 2400 50  0001 C CNN
-F 3 "" H 9100 2550 50  0000 C CNN
-F 4 "712-1252-1-ND" H 9100 2550 60  0001 C CNN "Digi-Key Part Number"
-F 5 "0402" H 9100 2550 60  0001 C CNN "Footprint"
-	1    9100 2550
-	1    0    0    -1  
-$EndComp
-Text GLabel 4000 2850 2    60   Input ~ 0
-OSC1
-Text GLabel 4000 2950 2    60   Input ~ 0
-OSC0
 Wire Wire Line
 	4000 2850 3950 2850
 Wire Wire Line
 	4000 2950 3950 2950
-Text GLabel 9350 1950 2    60   Input ~ 0
-OSC1
-Text GLabel 9350 2350 2    60   Input ~ 0
-OSC0
-Text GLabel 4000 3550 2    60   Input ~ 0
-XOSC0
-Text GLabel 4000 3350 2    60   Input ~ 0
-XOSC1
-Text GLabel 4000 3450 2    60   Input ~ 0
-XGND
-Text GLabel 10700 1950 2    60   Input ~ 0
-XOSC0
-Text GLabel 10700 2750 2    60   Input ~ 0
-XOSC1
-Text GLabel 10700 2350 2    60   Input ~ 0
-XGND
-$Comp
-L Crystal Y2
-U 1 1 5AE8956C
-P 10050 2350
-F 0 "Y2" H 10050 2500 50  0000 C CNN
-F 1 "32.768kHz" H 10050 2200 50  0000 C CNN
-F 2 "Avionics:Crystal_32768Hz_Radial_Can" H 10050 2350 50  0001 C CNN
-F 3 "" H 10050 2350 50  0000 C CNN
-F 4 "535-9034-ND" H 10050 2350 60  0001 C CNN "Digi-Key Part Number"
-	1    10050 2350
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Crystal Y1
-U 1 1 5AE85C82
-P 9100 2150
-F 0 "Y1" H 9100 2300 50  0000 C CNN
-F 1 "16Mhz" H 9100 2000 50  0000 C CNN
-F 2 "Avionics:16MHz_Clock" H 9100 2150 50  0001 C CNN
-F 3 "" H 9100 2150 50  0000 C CNN
-F 4 "631-1150-1-ND" H 9100 2150 60  0001 C CNN "Digi-Key Part Number"
-F 5 "NX5032GA-16.000000MHZ-LN-CD-1" H 9100 2150 60  0001 C CNN "Manufacturer Part No"
-	1    9100 2150
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	8700 1950 9350 1950
 Wire Wire Line
@@ -1222,30 +1390,6 @@ Wire Wire Line
 Wire Wire Line
 	9100 2750 9100 2700
 Connection ~ 8900 2750
-$Comp
-L C C18
-U 1 1 5AE8B1DF
-P 10350 2550
-F 0 "C18" H 10375 2650 50  0000 L CNN
-F 1 "24pF" H 10375 2450 50  0000 L CNN
-F 2 "SFUSAT Caps:C_0402" H 10388 2400 50  0001 C CNN
-F 3 "" H 10350 2550 50  0000 C CNN
-	1    10350 2550
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C17
-U 1 1 5AE8B710
-P 10350 2150
-F 0 "C17" H 10375 2250 50  0000 L CNN
-F 1 "24pF" H 10375 2050 50  0000 L CNN
-F 2 "SFUSAT Caps:C_0402" H 10388 2000 50  0001 C CNN
-F 3 "" H 10350 2150 50  0000 C CNN
-F 4 "478-10149-1-ND" H 10350 2150 60  0001 C CNN "Digi-Key Part Number"
-F 5 "0402" H 10350 2150 60  0001 C CNN "Footprint"
-	1    10350 2150
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	10700 2350 10350 2350
 Wire Wire Line
@@ -1273,67 +1417,17 @@ Wire Notes Line
 	11200 1600 11200 3050
 Wire Notes Line
 	11200 3050 8550 3050
-Text Notes 8600 1700 0    60   ~ 0
-OSCILLATORS
 Wire Wire Line
 	4000 3350 3950 3350
 Wire Wire Line
 	4000 3450 3950 3450
 Wire Wire Line
 	4000 3550 3950 3550
-$Comp
-L SW_PUSH SW1
-U 1 1 5AE8E80C
-P 5950 3750
-F 0 "SW1" H 6100 3860 50  0000 C CNN
-F 1 "SW_RST" H 5950 3670 50  0000 C CNN
-F 2 "Avionics:Push_Button_B3S-1000" H 5950 3750 50  0001 C CNN
-F 3 "" H 5950 3750 50  0000 C CNN
-F 4 "SW415-ND" H 5950 3750 60  0001 C CNN "Digi-Key Part Number"
-	1    5950 3750
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R7
-U 1 1 5AE8F314
-P 6350 3550
-F 0 "R7" V 6430 3550 50  0000 C CNN
-F 1 "10k" V 6350 3550 50  0000 C CNN
-F 2 "SFUSAT-Res:R_0402" V 6280 3550 50  0001 C CNN
-F 3 "" H 6350 3550 50  0000 C CNN
-F 4 "311-10.0KLRCT-ND" V 6350 3550 60  0001 C CNN "Digi-Key Part Number"
-	1    6350 3550
-	1    0    0    -1  
-$EndComp
-$Comp
-L +3V3 #PWR017
-U 1 1 5AE8F4F4
-P 6350 3350
-F 0 "#PWR017" H 6350 3200 50  0001 C CNN
-F 1 "+3V3" H 6350 3490 50  0000 C CNN
-F 2 "" H 6350 3350 50  0000 C CNN
-F 3 "" H 6350 3350 50  0000 C CNN
-	1    6350 3350
-	1    0    0    -1  
-$EndComp
-Text GLabel 6450 3750 2    60   Input ~ 0
-RESET
 Wire Wire Line
 	6250 3750 6450 3750
 Wire Wire Line
 	6350 3750 6350 3700
 Connection ~ 6350 3750
-$Comp
-L GND #PWR018
-U 1 1 5AE92113
-P 5600 3750
-F 0 "#PWR018" H 5600 3500 50  0001 C CNN
-F 1 "GND" H 5600 3600 50  0000 C CNN
-F 2 "" H 5600 3750 50  0000 C CNN
-F 3 "" H 5600 3750 50  0000 C CNN
-	1    5600 3750
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5600 3750 5650 3750
 Wire Wire Line
@@ -1346,66 +1440,23 @@ Wire Notes Line
 	6850 3100 5050 3100
 Wire Notes Line
 	5050 3100 5050 3950
-Text Notes 5100 3200 0    60   ~ 0
-PROCESSOR RESET
-$Sheet
-S 9500 950  1000 400 
-U 5AE8FB66
-F0 "Power" 60
-F1 "Power.sch" 60
-F2 "+VBUS" I L 9500 1100 60 
-F3 "EN_3V3" I L 9500 1200 60 
-F4 "+VBAT" O R 10500 1100 60 
-$EndSheet
-$Comp
-L CONN_01X02 P3
-U 1 1 5AE964AC
-P 10850 1150
-F 0 "P3" H 10850 1000 50  0000 C CNN
-F 1 "JST-2" H 10850 1300 50  0000 C CNN
-F 2 "Avionics:JST_B2B-EH-A(LF)(SN)" H 10850 1150 50  0001 C CNN
-F 3 "" H 10850 1150 50  0000 C CNN
-F 4 "455-1611-ND" H 10850 1150 60  0001 C CNN "Digi-Key Part Number"
-F 5 "EH Header" H 10850 1150 60  0001 C CNN "Header Type"
-	1    10850 1150
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	10500 1100 10650 1100
-$Comp
-L GND #PWR019
-U 1 1 5AE96FA7
-P 10600 1250
-F 0 "#PWR019" H 10600 1000 50  0001 C CNN
-F 1 "GND" H 10600 1100 50  0000 C CNN
-F 2 "" H 10600 1250 50  0000 C CNN
-F 3 "" H 10600 1250 50  0000 C CNN
-	1    10600 1250
-	1    0    0    -1  
-$EndComp
+	5500 1050 5500 1000
 Wire Wire Line
-	10600 1250 10600 1200
+	5500 1000 5550 1000
 Wire Wire Line
-	10600 1200 10650 1200
-Text GLabel 9400 1100 0    60   Input ~ 0
-+USB_VBUS
+	9175 850  9275 850 
 Wire Wire Line
-	9400 1100 9500 1100
+	9225 850  9225 950 
 Wire Wire Line
-	9450 1100 9450 1200
-Wire Wire Line
-	9450 1200 9500 1200
-Connection ~ 9450 1100
-Wire Notes Line
-	8550 1550 8550 500 
+	9225 950  9275 950 
+Connection ~ 9225 850 
 Wire Notes Line
 	8550 500  11200 500 
 Wire Notes Line
 	11200 500  11200 1550
 Wire Notes Line
 	11200 1550 8550 1550
-Text Notes 8600 600  0    60   ~ 0
-POWER SUPPLY
 Wire Wire Line
 	1900 1300 1900 1250
 Wire Wire Line
@@ -1414,40 +1465,12 @@ Wire Wire Line
 	2100 1300 2100 1250
 Wire Wire Line
 	2200 1300 2200 1250
-Text GLabel 1400 2450 0    60   Input ~ 0
-PB7/ACC_INT2
 Wire Wire Line
 	1450 2450 1400 2450
-Text GLabel 1400 2150 0    60   Input ~ 0
-PB6/ACC_INT1
-Text GLabel 1400 2650 0    60   Input ~ 0
-PF4/GYR_INT1
-Text GLabel 1400 2750 0    60   Input ~ 0
-PE3/GYR_INT2/DRDY
-Text GLabel 1400 2550 0    60   Input ~ 0
-PE2/GYR_DEN
-Text GLabel 2600 1250 1    60   Input ~ 0
-PB5/BAR_INT1
-Text GLabel 2500 1250 1    60   Input ~ 0
-PB4/BAR_INT2
 Wire Wire Line
 	2600 1300 2600 1250
 Wire Wire Line
 	2500 1300 2500 1250
-Text GLabel 3975 7400 0    60   Input ~ 0
-PE2/GYR_DEN
-Text GLabel 5675 7500 2    60   Input ~ 0
-PE3/GYR_INT2/DRDY
-Text GLabel 5675 7400 2    60   Input ~ 0
-PF4/GYR_INT1
-Text GLabel 5675 7000 2    60   Input ~ 0
-PB7/ACC_INT2
-Text GLabel 5675 6900 2    60   Input ~ 0
-PB6/ACC_INT1
-Text GLabel 5675 7250 2    60   Input ~ 0
-PB4/BAR_INT2
-Text GLabel 5675 7150 2    60   Input ~ 0
-PB5/BAR_INT1
 Wire Wire Line
 	5600 7500 5675 7500
 Wire Wire Line
@@ -1470,4 +1493,126 @@ Wire Wire Line
 	1400 2750 1450 2750
 Wire Wire Line
 	3975 7400 4050 7400
+Wire Notes Line
+	8500 500  8500 3050
+Wire Notes Line
+	8500 3050 7250 3050
+Wire Notes Line
+	7250 3050 7250 500 
+Wire Notes Line
+	7250 500  8500 500 
+Wire Notes Line
+	7200 500  7200 3050
+Wire Notes Line
+	7200 3050 6000 3050
+Wire Notes Line
+	6000 3050 6000 500 
+Wire Notes Line
+	6000 500  7200 500 
+Wire Notes Line
+	8550 1550 8550 500 
+Wire Wire Line
+	5400 900  5550 900 
+Text GLabel 10325 850  2    60   Input ~ 0
++VBAT_ON
+$Sheet
+S 4475 800  925  375 
+U 5B4A1B25
+F0 "Power Switch" 60
+F1 "PWRSwitch.sch" 60
+F2 "+VBAT" I R 5400 900 60 
+F3 "+VBAT_ON" O L 4475 900 60 
+$EndSheet
+Wire Wire Line
+	10275 850  10325 850 
+Text GLabel 4425 900  0    60   Input ~ 0
++VBAT_ON
+Wire Wire Line
+	4425 900  4475 900 
+Wire Notes Line
+	5950 500  3875 500 
+Wire Notes Line
+	3875 500  3875 1400
+Wire Notes Line
+	3875 1400 5950 1400
+Wire Notes Line
+	5950 1400 5950 500 
+Text Notes 3900 625  0    60   ~ 0
+Power Switch - Slide Switch and P-MOSFET
+Wire Notes Line
+	5050 1450 5950 1450
+Wire Notes Line
+	5950 3050 5950 1450
+Text Notes 5275 1550 0    60   ~ 0
+Indicator LED
+$Comp
+L R R15
+U 1 1 5B4A5634
+P 5325 1875
+F 0 "R15" V 5405 1875 50  0000 C CNN
+F 1 "330" V 5325 1875 50  0000 C CNN
+F 2 "SFUSAT-Res:R_0402" V 5255 1875 50  0001 C CNN
+F 3 "" H 5325 1875 50  0000 C CNN
+F 4 "RR05P330DCT-ND" V 5325 1875 60  0001 C CNN "Digi-Key Part Number"
+	1    5325 1875
+	1    0    0    -1  
+$EndComp
+$Comp
+L Led_Small D3
+U 1 1 5B4A5AE8
+P 5625 1875
+F 0 "D3" H 5575 2000 50  0000 L CNN
+F 1 "Led_Small" H 5450 1775 50  0000 L CNN
+F 2 "SFUSAT-Res:R_0603" V 5625 1875 50  0001 C CNN
+F 3 "" V 5625 1875 50  0000 C CNN
+F 4 "160-1435-1-ND" H 5625 1875 60  0001 C CNN "Digi-Key Number"
+	1    5625 1875
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR020
+U 1 1 5B4A5E1A
+P 5625 2025
+F 0 "#PWR020" H 5625 1775 50  0001 C CNN
+F 1 "GND" H 5625 1875 50  0000 C CNN
+F 2 "" H 5625 2025 50  0001 C CNN
+F 3 "" H 5625 2025 50  0001 C CNN
+	1    5625 2025
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5325 1725 5625 1725
+Wire Wire Line
+	5625 1725 5625 1775
+Wire Wire Line
+	5625 1975 5625 2025
+Text GLabel 1400 2850 0    60   Input ~ 0
+PE1/IND_LED
+Wire Wire Line
+	1450 2850 1400 2850
+Text GLabel 5325 2075 3    60   Input ~ 0
+PE1/IND_LED
+Wire Wire Line
+	5325 2025 5325 2075
+Text GLabel 6550 2500 0    60   Input ~ 0
++VBAT
+Wire Wire Line
+	6550 2500 6600 2500
+$Comp
+L GND #PWR021
+U 1 1 5B4AC6E3
+P 1750 7725
+F 0 "#PWR021" H 1750 7475 50  0001 C CNN
+F 1 "GND" H 1750 7575 50  0000 C CNN
+F 2 "" H 1750 7725 50  0001 C CNN
+F 3 "" H 1750 7725 50  0001 C CNN
+	1    1750 7725
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 7700 1750 7725
+Wire Notes Line
+	5050 3050 5950 3050
+Wire Notes Line
+	5050 3050 5050 1450
 $EndSCHEMATC
