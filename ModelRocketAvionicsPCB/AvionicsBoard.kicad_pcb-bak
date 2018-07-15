@@ -14,7 +14,7 @@
 
   (page A4)
   (layers
-    (0 F.Cu signal)
+    (0 F.Cu signal hide)
     (1 GND power)
     (2 PWR.Cu power)
     (31 B.Cu signal)
@@ -2460,7 +2460,7 @@
       (net 30 PB2/I2C_SCL))
   )
 
-  (module Avionics:MCP73831T-2ACI&slash_OT (layer F.Cu) (tedit 5B4A879C) (tstamp 5B1816BB)
+  (module Avionics:MCP73831T-2ACI&slash_OT (layer F.Cu) (tedit 5B4A8A35) (tstamp 5B1816BB)
     (at 103.6046 84.239999 180)
     (path /5AE8FB66/5AE8FCA0)
     (fp_text reference U6 (at -1.7454 1.969999 180) (layer F.SilkS)
@@ -3059,15 +3059,15 @@
     (pad "" thru_hole circle (at -3.15 -1.25) (size 1 1) (drill 0.85) (layers *.Cu *.Mask))
   )
 
-  (module AvionicsIC:SOT563 (layer F.Cu) (tedit 595F7D7E) (tstamp 5B49D037)
+  (module AvionicsIC:SOT563 (layer F.Cu) (tedit 5B4A8A59) (tstamp 5B49D037)
     (at 106.87 82.74 180)
     (path /5B4A1B25/5B4A3342)
     (attr smd)
-    (fp_text reference U10 (at 0.05 0 180) (layer F.Fab)
-      (effects (font (size 0.2 0.2) (thickness 0.05)))
+    (fp_text reference U10 (at 1.39 2.13 270) (layer F.SilkS)
+      (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
-    (fp_text value DMG1029SV-7 (at -0.05 -0.8 180) (layer F.Fab)
-      (effects (font (size 0.2 0.2) (thickness 0.05)))
+    (fp_text value PMOS (at -1.41 -0.04 270) (layer F.SilkS)
+      (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
     (fp_circle (center -0.51 0.23) (end -0.44 0.3) (layer F.Fab) (width 0.001))
     (fp_line (start 0.79756 -0.59944) (end 0.79756 0.59944) (layer F.Fab) (width 0.001))
