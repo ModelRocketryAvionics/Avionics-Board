@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source "C:\\Users\\harri\\Documents\\GitHub\\Model Rocketry\\Avionics-Board\\ModelRocketAvionicsPCB\\AvionicsBoard.sch")
-    (date "2018-07-14 4:38:13 PM")
+    (source "C:/Users/harri/Documents/GitHub/Model Rocketry/Avionics-Board/ModelRocketAvionicsPCB/AvionicsBoard.sch")
+    (date "2018-07-14 6:46:15 PM")
     (tool "Eeschema 4.0.7")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -387,10 +387,10 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5B41BEC2))
     (comp (ref R15)
-      (value 330)
+      (value 100)
       (footprint SFUSAT-Res:R_0402)
       (fields
-        (field (name "Digi-Key Part Number") RR05P330DCT-ND))
+        (field (name "Digi-Key Part Number") P100DECT-ND))
       (libsource (lib device) (part R))
       (sheetpath (names /) (tstamps /))
       (tstamp 5B4A5634))
@@ -494,8 +494,7 @@
       (value "10nF(25V)")
       (footprint "SFUSAT Caps:C_0402")
       (fields
-        (field (name "Digi-Key Part Number") 478-7867-1-ND)
-        (field (name Footprint) 0402))
+        (field (name "Digi-Key Part Number") 478-7867-1-ND))
       (libsource (lib device) (part C))
       (sheetpath (names /Sensors/) (tstamps /5AE7747B/))
       (tstamp 5AE7CBFF))
@@ -609,7 +608,7 @@
       (value 2.2uF)
       (footprint "SFUSAT Caps:C_0603")
       (fields
-        (field (name "Digi-Key Part Number") 490-3296-1-ND))
+        (field (name "Digi-Key Part Number") 490-10486-6-ND))
       (libsource (lib device) (part C))
       (sheetpath (names /Power/) (tstamps /5AE8FB66/))
       (tstamp 5AE91E4B))
@@ -991,8 +990,6 @@
         (pin (num 11) (name X3) (type input))
         (pin (num 12) (name X4) (type input)))))
   (libraries
-    (library (logical AvionicsBoard-rescue)
-      (uri "C:\\Users\\harri\\Documents\\GitHub\\Model Rocketry\\Avionics-Board\\ModelRocketAvionicsPCB\\AvionicsBoard-rescue.lib"))
     (library (logical device)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\device.lib"))
     (library (logical tm4c123gh6pm)
@@ -1003,10 +1000,12 @@
       (uri "C:\\Users\\harri\\Documents\\GitHub\\Model Rocketry\\Avionics-Board\\ModelRocketAvionicsPCB\\l3gd20htr.lib"))
     (library (logical AvionicsBoard-cache)
       (uri "C:\\Users\\harri\\Documents\\GitHub\\Model Rocketry\\Avionics-Board\\ModelRocketAvionicsPCB\\AvionicsBoard-cache.lib"))
+    (library (logical mpl3115a2)
+      (uri "C:\\Users\\harri\\Documents\\GitHub\\Model Rocketry\\Avionics-Board\\ModelRocketAvionicsPCB\\mpl3115a2.lib"))
     (library (logical css-1210tb)
       (uri "C:\\Users\\harri\\Documents\\GitHub\\Model Rocketry\\Avionics-Board\\ModelRocketAvionicsPCB\\css-1210tb.lib"))
-    (library (logical mpl3115a2)
-      (uri "C:\\Users\\harri\\Documents\\GitHub\\Model Rocketry\\Avionics-Board\\ModelRocketAvionicsPCB\\mpl3115a2.lib")))
+    (library (logical AvionicsBoard-rescue)
+      (uri "C:\\Users\\harri\\Documents\\GitHub\\Model Rocketry\\Avionics-Board\\ModelRocketAvionicsPCB\\AvionicsBoard-rescue.lib")))
   (nets
     (net (code 1) (name "Net-(CON1-Pad1)")
       (node (ref R10) (pin 2))
