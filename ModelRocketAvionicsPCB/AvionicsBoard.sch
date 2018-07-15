@@ -33,12 +33,13 @@ LIBS:tm4c123gh6pm
 LIBS:lis331
 LIBS:l3gd20htr
 LIBS:mpl3115a2
+LIBS:css-1210tb
 LIBS:AvionicsBoard-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 3
+Sheet 1 4
 Title ""
 Date ""
 Rev ""
@@ -100,9 +101,9 @@ F9 "GYR_INT2/DRDY" O R 5600 7500 60
 F10 "GYR_DEN" I L 4050 7400 60 
 $EndSheet
 Text GLabel 4000 2650 2    60   Input ~ 0
-PD4/USB0_DM
+USB0_D-
 Text GLabel 4000 2550 2    60   Input ~ 0
-PD5/USB0_DP
+USB0_D+
 Text GLabel 4000 3150 2    60   Input ~ 0
 RESET
 Text GLabel 4000 2450 2    60   Input ~ 0
@@ -231,7 +232,7 @@ SENSORS
 Text GLabel 3200 1250 1    60   Input ~ 0
 PC1/JTAG_TMS
 Text GLabel 3100 1250 1    60   Input ~ 0
-PC1/JTAG_TCK
+PC0/JTAG_TCK
 Text GLabel 3400 1250 1    60   Input ~ 0
 PC3/JTAG_TDO
 Text GLabel 3300 1250 1    60   Input ~ 0
@@ -661,9 +662,9 @@ F 4 "H125279CT-ND" H 6500 5300 60  0001 C CNN "Digi-Key Part Number"
 	0    1    1    0   
 $EndComp
 Text GLabel 6100 5200 0    60   Input ~ 0
-PD4/USB0_DM
+USB0_D-
 Text GLabel 6100 5300 0    60   Input ~ 0
-PD5/USB0_DP
+USB0_D+
 Text GLabel 6100 5400 0    60   Input ~ 0
 PB0/USB0_ID
 Text GLabel 6100 5100 0    60   Input ~ 0
@@ -898,70 +899,182 @@ $EndComp
 Text Notes 5100 3200 0    60   ~ 0
 PROCESSOR RESET
 $Sheet
-S 9500 950  1000 400 
+S 9275 700  1000 400 
 U 5AE8FB66
 F0 "Power" 60
 F1 "Power.sch" 60
-F2 "+VBUS" I L 9500 1100 60 
-F3 "EN_3V3" I L 9500 1200 60 
-F4 "+VBAT" O R 10500 1100 60 
+F2 "+VBUS" I L 9275 850 60 
+F3 "EN_3V3" I L 9275 950 60 
+F4 "+VBAT" O R 10275 850 60 
 $EndSheet
 $Comp
 L CONN_01X02 P3
 U 1 1 5AE964AC
-P 10850 1150
-F 0 "P3" H 10850 1000 50  0000 C CNN
-F 1 "JST-2" H 10850 1300 50  0000 C CNN
-F 2 "Avionics:JST_B2B-EH-A(LF)(SN)" H 10850 1150 50  0001 C CNN
-F 3 "" H 10850 1150 50  0000 C CNN
-F 4 "455-1611-ND" H 10850 1150 60  0001 C CNN "Digi-Key Part Number"
-F 5 "EH Header" H 10850 1150 60  0001 C CNN "Header Type"
-	1    10850 1150
+P 5750 950
+F 0 "P3" H 5750 800 50  0000 C CNN
+F 1 "JST-2" H 5750 1100 50  0000 C CNN
+F 2 "Avionics:JST_B2B-EH-A(LF)(SN)" H 5750 950 50  0001 C CNN
+F 3 "" H 5750 950 50  0000 C CNN
+F 4 "455-1611-ND" H 5750 950 60  0001 C CNN "Digi-Key Part Number"
+F 5 "EH Header" H 5750 950 60  0001 C CNN "Header Type"
+	1    5750 950 
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR019
 U 1 1 5AE96FA7
-P 10600 1250
-F 0 "#PWR019" H 10600 1000 50  0001 C CNN
-F 1 "GND" H 10600 1100 50  0000 C CNN
-F 2 "" H 10600 1250 50  0000 C CNN
-F 3 "" H 10600 1250 50  0000 C CNN
-	1    10600 1250
+P 5500 1050
+F 0 "#PWR019" H 5500 800 50  0001 C CNN
+F 1 "GND" H 5500 900 50  0000 C CNN
+F 2 "" H 5500 1050 50  0000 C CNN
+F 3 "" H 5500 1050 50  0000 C CNN
+	1    5500 1050
 	1    0    0    -1  
 $EndComp
-Text GLabel 9400 1100 0    60   Input ~ 0
+Text GLabel 9175 850  0    60   Input ~ 0
 +USB_VBUS
 Text Notes 8600 600  0    60   ~ 0
 POWER SUPPLY
 Text GLabel 1400 2450 0    60   Input ~ 0
-PB7/ACC_INT2
+PB7/GYR_INT1
 Text GLabel 1400 2150 0    60   Input ~ 0
-PB6/ACC_INT1
+PB6/GYR_INT2/DRDY
 Text GLabel 1400 2650 0    60   Input ~ 0
-PF4/GYR_INT1
+PE3/ACC_INT1
 Text GLabel 1400 2750 0    60   Input ~ 0
-PE3/GYR_INT2/DRDY
+PE2/ACC_INT2
 Text GLabel 1400 2550 0    60   Input ~ 0
-PE2/GYR_DEN
+PF4/GYR_DEN
 Text GLabel 2600 1250 1    60   Input ~ 0
-PB5/BAR_INT1
+PB5
 Text GLabel 2500 1250 1    60   Input ~ 0
-PB4/BAR_INT2
+PB4
 Text GLabel 3975 7400 0    60   Input ~ 0
-PE2/GYR_DEN
+PF4/GYR_DEN
 Text GLabel 5675 7500 2    60   Input ~ 0
-PE3/GYR_INT2/DRDY
+PB6/GYR_INT2/DRDY
 Text GLabel 5675 7400 2    60   Input ~ 0
-PF4/GYR_INT1
+PB7/GYR_INT1
 Text GLabel 5675 7000 2    60   Input ~ 0
-PB7/ACC_INT2
+PE2/ACC_INT2
 Text GLabel 5675 6900 2    60   Input ~ 0
-PB6/ACC_INT1
+PE3/ACC_INT1
 Text GLabel 5675 7250 2    60   Input ~ 0
-PB4/BAR_INT2
+PF3/BAR_INT2
 Text GLabel 5675 7150 2    60   Input ~ 0
-PB5/BAR_INT1
+PF2/BAR_INT1
+Text Notes 6000 600  0    60   ~ 0
+Right Side Female Header
+Text Notes 7275 600  0    60   ~ 0
+Left Side Female Header\n
+$Comp
+L CONNHeaderFemale16 U8
+U 1 1 5B41BDEB
+P 6850 1700
+F 0 "U8" H 6850 800 60  0000 C CNN
+F 1 "CONNHeaderFemale16" H 6700 2525 60  0000 C CNN
+F 2 "Avionics:16x1_Female_Header" H 6600 1550 60  0001 C CNN
+F 3 "" H 6600 1550 60  0001 C CNN
+	1    6850 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONNHeaderFemale16 U9
+U 1 1 5B41BEC2
+P 8100 1725
+F 0 "U9" H 8100 825 60  0000 C CNN
+F 1 "CONNHeaderFemale16" H 7975 2550 60  0000 C CNN
+F 2 "Avionics:16x1_Female_Header" H 7850 1575 60  0001 C CNN
+F 3 "" H 7850 1575 60  0001 C CNN
+	1    8100 1725
+	1    0    0    -1  
+$EndComp
+Text GLabel 10325 850  2    60   Input ~ 0
++VBAT_ON
+$Sheet
+S 4475 800  925  375 
+U 5B4A1B25
+F0 "Power Switch" 60
+F1 "PWRSwitch.sch" 60
+F2 "+VBAT" I R 5400 900 60 
+F3 "+VBAT_ON" O L 4475 900 60 
+$EndSheet
+Text GLabel 4425 900  0    60   Input ~ 0
++VBAT_ON
+Text Notes 3900 625  0    60   ~ 0
+Power Switch - Slide Switch and P-MOSFET
+Text Notes 5275 1550 0    60   ~ 0
+Indicator LED
+$Comp
+L R R15
+U 1 1 5B4A5634
+P 5325 1875
+F 0 "R15" V 5405 1875 50  0000 C CNN
+F 1 "330" V 5325 1875 50  0000 C CNN
+F 2 "SFUSAT-Res:R_0402" V 5255 1875 50  0001 C CNN
+F 3 "" H 5325 1875 50  0000 C CNN
+F 4 "RR05P330DCT-ND" V 5325 1875 60  0001 C CNN "Digi-Key Part Number"
+	1    5325 1875
+	1    0    0    -1  
+$EndComp
+$Comp
+L Led_Small D3
+U 1 1 5B4A5AE8
+P 5625 1875
+F 0 "D3" H 5575 2000 50  0000 L CNN
+F 1 "Led_Small" H 5450 1775 50  0000 L CNN
+F 2 "SFUSAT-Res:R_0603" V 5625 1875 50  0001 C CNN
+F 3 "" V 5625 1875 50  0000 C CNN
+F 4 "160-1435-1-ND" H 5625 1875 60  0001 C CNN "Digi-Key Number"
+	1    5625 1875
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR020
+U 1 1 5B4A5E1A
+P 5625 2025
+F 0 "#PWR020" H 5625 1775 50  0001 C CNN
+F 1 "GND" H 5625 1875 50  0000 C CNN
+F 2 "" H 5625 2025 50  0001 C CNN
+F 3 "" H 5625 2025 50  0001 C CNN
+	1    5625 2025
+	1    0    0    -1  
+$EndComp
+Text GLabel 1400 2850 0    60   Input ~ 0
+PE1/IND_LED
+Text GLabel 5325 2075 3    60   Input ~ 0
+PE1/IND_LED
+$Comp
+L GND #PWR021
+U 1 1 5B4AC6E3
+P 1750 7725
+F 0 "#PWR021" H 1750 7475 50  0001 C CNN
+F 1 "GND" H 1750 7575 50  0000 C CNN
+F 2 "" H 1750 7725 50  0001 C CNN
+F 3 "" H 1750 7725 50  0001 C CNN
+	1    1750 7725
+	1    0    0    -1  
+$EndComp
+Text GLabel 3200 4000 3    60   Input ~ 0
+PF2/BAR_INT1
+Text GLabel 3300 4000 3    60   Input ~ 0
+PF3/BAR_INT2
+Text GLabel 1400 2950 0    60   Input ~ 0
+PE0
+Text GLabel 1400 3050 0    60   Input ~ 0
+PD7
+Text GLabel 1400 3350 0    60   Input ~ 0
+PC7
+Text GLabel 1400 3450 0    60   Input ~ 0
+PC6
+Text GLabel 1400 3550 0    60   Input ~ 0
+PC5
+Text GLabel 1400 3650 0    60   Input ~ 0
+PC4
+Text GLabel 1900 4000 3    60   Input ~ 0
+PA0/U0Rx
+Text GLabel 2000 4000 3    60   Input ~ 0
+PA1/U0Tx
 Wire Wire Line
 	4000 3150 3950 3150
 Wire Wire Line
@@ -972,8 +1085,6 @@ Wire Wire Line
 	4000 2450 3950 2450
 Wire Wire Line
 	4000 2350 3950 2350
-Wire Wire Line
-	3400 3950 3400 4000
 Wire Wire Line
 	800  6800 800  6900
 Wire Wire Line
@@ -1414,20 +1525,16 @@ Wire Notes Line
 Wire Notes Line
 	5050 3100 5050 3950
 Wire Wire Line
-	10500 1100 10650 1100
+	5500 1050 5500 1000
 Wire Wire Line
-	10600 1250 10600 1200
+	5500 1000 5550 1000
 Wire Wire Line
-	10600 1200 10650 1200
+	9175 850  9275 850 
 Wire Wire Line
-	9400 1100 9500 1100
+	9225 850  9225 950 
 Wire Wire Line
-	9450 1100 9450 1200
-Wire Wire Line
-	9450 1200 9500 1200
-Connection ~ 9450 1100
-Wire Notes Line
-	8550 1550 8550 500 
+	9225 950  9275 950 
+Connection ~ 9225 850 
 Wire Notes Line
 	8550 500  11200 500 
 Wire Notes Line
@@ -1471,47 +1578,237 @@ Wire Wire Line
 Wire Wire Line
 	3975 7400 4050 7400
 Wire Notes Line
-	8500 525  8500 3050
+	8500 500  8500 3050
 Wire Notes Line
-	5050 3050 5050 500 
+	8500 3050 7250 3050
 Wire Notes Line
-	5050 500  6850 500 
+	7250 3050 7250 500 
 Wire Notes Line
-	6850 500  6850 3050
+	7250 500  8500 500 
 Wire Notes Line
-	6850 3050 5050 3050
+	7200 500  7200 3050
 Wire Notes Line
-	8500 3050 6900 3050
+	7200 3050 6000 3050
 Wire Notes Line
-	6900 500  8500 500 
+	6000 3050 6000 500 
 Wire Notes Line
-	8500 500  8500 600 
+	6000 500  7200 500 
 Wire Notes Line
-	6900 3050 6900 500 
-Text Notes 5075 600  0    60   ~ 0
-Left Side Female Header
-Text Notes 6925 600  0    60   ~ 0
-Right Side Female Header\n
-$Comp
-L CONNHeaderFemale16 U8
-U 1 1 5B41BDEB
-P 6450 1725
-F 0 "U8" H 6450 825 60  0000 C CNN
-F 1 "CONNHeaderFemale16" H 6350 2550 60  0000 C CNN
-F 2 "Avionics:16x1_Female_Header" H 6200 1575 60  0001 C CNN
-F 3 "" H 6200 1575 60  0001 C CNN
-	1    6450 1725
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONNHeaderFemale16 U9
-U 1 1 5B41BEC2
-P 8100 1725
-F 0 "U9" H 8100 825 60  0000 C CNN
-F 1 "CONNHeaderFemale16" H 8000 2550 60  0000 C CNN
-F 2 "Avionics:16x1_Female_Header" H 7850 1575 60  0001 C CNN
-F 3 "" H 7850 1575 60  0001 C CNN
-	1    8100 1725
-	1    0    0    -1  
-$EndComp
+	8550 1550 8550 500 
+Wire Wire Line
+	5400 900  5550 900 
+Wire Wire Line
+	10275 850  10325 850 
+Wire Wire Line
+	4425 900  4475 900 
+Wire Notes Line
+	5950 500  3875 500 
+Wire Notes Line
+	3875 500  3875 1400
+Wire Notes Line
+	3875 1400 5950 1400
+Wire Notes Line
+	5950 1400 5950 500 
+Wire Notes Line
+	5050 1450 5950 1450
+Wire Notes Line
+	5950 1450 5950 3050
+Wire Wire Line
+	5325 1725 5625 1725
+Wire Wire Line
+	5625 1725 5625 1775
+Wire Wire Line
+	5625 1975 5625 2025
+Wire Wire Line
+	1450 2850 1400 2850
+Wire Wire Line
+	5325 2025 5325 2075
+Wire Wire Line
+	6550 2500 6600 2500
+Wire Wire Line
+	1750 7700 1750 7725
+Wire Notes Line
+	5950 3050 5050 3050
+Wire Notes Line
+	5050 3050 5050 1450
+Wire Wire Line
+	2000 3950 2000 4000
+Wire Wire Line
+	1900 4000 1900 3950
+Wire Wire Line
+	1450 3650 1400 3650
+Wire Wire Line
+	1400 3550 1450 3550
+Wire Wire Line
+	1400 3450 1450 3450
+Wire Wire Line
+	1450 3350 1400 3350
+Wire Wire Line
+	1450 2950 1400 2950
+Wire Wire Line
+	1400 3050 1450 3050
+Text GLabel 2500 4000 3    60   Input ~ 0
+PA6
+Text GLabel 2600 4000 3    60   Input ~ 0
+PA7
+Text GLabel 3000 4000 3    60   Input ~ 0
+PF0
+Text GLabel 3100 4000 3    60   Input ~ 0
+PF1
+Wire Wire Line
+	3000 3950 3000 4000
+Wire Wire Line
+	3100 3950 3100 4000
+Wire Wire Line
+	3200 3950 3200 4000
+Wire Wire Line
+	3300 3950 3300 4000
+Wire Wire Line
+	3400 3950 3400 4000
+Text GLabel 4000 3650 2    60   Input ~ 0
+HIB
+Text GLabel 3000 1250 1    60   Input ~ 0
+PD6
+Text GLabel 2400 1250 1    60   Input ~ 0
+PE4
+Text GLabel 2300 1250 1    60   Input ~ 0
+PE5
+Wire Wire Line
+	2300 1250 2300 1300
+Wire Wire Line
+	2400 1250 2400 1300
+Wire Wire Line
+	3000 1250 3000 1300
+Wire Wire Line
+	3950 3650 4000 3650
+Text GLabel 6550 1000 0    60   Input ~ 0
++VBAT
+Text GLabel 6550 1100 0    60   Input ~ 0
++VBAT
+Text GLabel 6550 1200 0    60   Input ~ 0
+PWR_VDD
+Text GLabel 6550 1300 0    60   Input ~ 0
+PWR_VDD
+Text GLabel 6550 1400 0    60   Input ~ 0
+WAKE
+Text GLabel 6550 1500 0    60   Input ~ 0
+PA7
+Text GLabel 6550 1600 0    60   Input ~ 0
+PA6
+Text GLabel 6550 1700 0    60   Input ~ 0
+PA1/U0Tx
+Text GLabel 6550 1800 0    60   Input ~ 0
+PA0/U0Rx
+Text GLabel 6550 1900 0    60   Input ~ 0
+PC4
+Text GLabel 6550 2000 0    60   Input ~ 0
+PC5
+Text GLabel 6550 2100 0    60   Input ~ 0
+PC6
+Text GLabel 6550 2300 0    60   Input ~ 0
+PD7
+Text GLabel 6550 2400 0    60   Input ~ 0
+PE0
+Text GLabel 6550 2500 0    60   Input ~ 0
+PWR_GND
+Wire Wire Line
+	2600 4000 2600 3950
+Wire Wire Line
+	2500 3950 2500 4000
+Wire Wire Line
+	6550 2400 6600 2400
+Wire Wire Line
+	6600 2300 6550 2300
+Wire Wire Line
+	6550 2200 6600 2200
+Wire Wire Line
+	6600 2100 6550 2100
+Wire Wire Line
+	6550 2000 6600 2000
+Wire Wire Line
+	6550 1900 6600 1900
+Wire Wire Line
+	6600 1800 6550 1800
+Wire Wire Line
+	6550 1700 6600 1700
+Wire Wire Line
+	6600 1600 6550 1600
+Wire Wire Line
+	6550 1500 6600 1500
+Wire Wire Line
+	6600 1400 6550 1400
+Wire Wire Line
+	6600 1300 6550 1300
+Wire Wire Line
+	6550 1200 6600 1200
+Wire Wire Line
+	6600 1100 6550 1100
+Wire Wire Line
+	6550 1000 6600 1000
+Text GLabel 7800 1025 0    60   Input ~ 0
+PWR_GND
+Text GLabel 7800 1125 0    60   Input ~ 0
+PWR_GND
+Text GLabel 7800 1225 0    60   Input ~ 0
+PB2/I2C_SCL
+Text GLabel 7800 1325 0    60   Input ~ 0
+PB3/I2C_SDA
+Text GLabel 7800 1425 0    60   Input ~ 0
+PD6
+Text GLabel 7800 1525 0    60   Input ~ 0
+RESET
+Text GLabel 7800 1625 0    60   Input ~ 0
+HIB
+Text GLabel 7800 2125 0    60   Input ~ 0
+PD0/SSI1CLK
+Text GLabel 7800 2225 0    60   Input ~ 0
+PD1/SSI1Fss
+Text GLabel 7800 2325 0    60   Input ~ 0
+PD2/SSI1Rx
+Text GLabel 7800 2425 0    60   Input ~ 0
+PD3/SSI1Tx
+Text GLabel 7800 1725 0    60   Input ~ 0
+PB5
+Text GLabel 7800 1825 0    60   Input ~ 0
+PB4
+Text GLabel 7800 1925 0    60   Input ~ 0
+PE4
+Text GLabel 7800 2025 0    60   Input ~ 0
+PE5
+Text GLabel 7800 2525 0    60   Input ~ 0
+PWR_VDD
+Wire Wire Line
+	7800 2525 7850 2525
+Wire Wire Line
+	7850 2425 7800 2425
+Wire Wire Line
+	7800 2325 7850 2325
+Wire Wire Line
+	7850 2225 7800 2225
+Wire Wire Line
+	7800 2125 7850 2125
+Wire Wire Line
+	7850 2025 7800 2025
+Wire Wire Line
+	7800 1925 7850 1925
+Wire Wire Line
+	7800 1825 7850 1825
+Wire Wire Line
+	7850 1725 7800 1725
+Wire Wire Line
+	7800 1625 7850 1625
+Wire Wire Line
+	7850 1525 7800 1525
+Wire Wire Line
+	7800 1425 7850 1425
+Wire Wire Line
+	7850 1325 7800 1325
+Wire Wire Line
+	7800 1225 7850 1225
+Wire Wire Line
+	7850 1125 7800 1125
+Wire Wire Line
+	7800 1025 7850 1025
+Text GLabel 6550 2200 0    60   Input ~ 0
+PC7
 $EndSCHEMATC

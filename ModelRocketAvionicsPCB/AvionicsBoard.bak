@@ -1493,23 +1493,23 @@ Left Side Female Header
 Text Notes 6925 600  0    60   ~ 0
 Right Side Female Header\n
 $Comp
-L CONNHeaderFemale16 U?
+L CONNHeaderFemale16 U8
 U 1 1 5B41BDEB
 P 6450 1725
-F 0 "U?" H 6450 825 60  0000 C CNN
+F 0 "U8" H 6450 825 60  0000 C CNN
 F 1 "CONNHeaderFemale16" H 6350 2550 60  0000 C CNN
-F 2 "" H 6200 1575 60  0001 C CNN
+F 2 "Avionics:16x1_Female_Header" H 6200 1575 60  0001 C CNN
 F 3 "" H 6200 1575 60  0001 C CNN
 	1    6450 1725
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONNHeaderFemale16 U?
+L CONNHeaderFemale16 U9
 U 1 1 5B41BEC2
 P 8100 1725
-F 0 "U?" H 8100 825 60  0000 C CNN
+F 0 "U9" H 8100 825 60  0000 C CNN
 F 1 "CONNHeaderFemale16" H 8000 2550 60  0000 C CNN
-F 2 "" H 7850 1575 60  0001 C CNN
+F 2 "Avionics:16x1_Female_Header" H 7850 1575 60  0001 C CNN
 F 3 "" H 7850 1575 60  0001 C CNN
 	1    8100 1725
 	1    0    0    -1  
