@@ -1,0 +1,1702 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:/Users/harri/Documents/GitHub/Model Rocketry/Avionics-Board/ModelRocketAvionicsPCB/AvionicsBoard.sch</source>
+    <date>2018-07-14 7:48:00 PM</date>
+    <tool>Eeschema 4.0.7</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>AvionicsBoard.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Sensors/" tstamps="/5AE7747B/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Sensors.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Power/" tstamps="/5AE8FB66/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Power.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/Power Switch/" tstamps="/5B4A1B25/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>PWRSwitch.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>TM4C123GH6PM</value>
+      <footprint>Avionics:TM4C123GH6PMI</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">296-46360-1-ND</field>
+      </fields>
+      <libsource lib="tm4c123gh6pm" part="TM4C123GH6PM"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB02A0F</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>4.7k</value>
+      <footprint>SFUSAT-Res:R_0402</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">P4.7KDCCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB05355</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>4.7k</value>
+      <footprint>SFUSAT-Res:R_0402</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">P4.7KDCCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB05388</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>FTSH-105-01-F-DV</value>
+      <footprint>Avionics:FTSH-105-01-F-DV-K</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">SAM8796-ND</field>
+      </fields>
+      <libsource lib="tm4c123gh6pm" part="FTSH-105-01-F-DV"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE8A3ED</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>100</value>
+      <footprint>SFUSAT-Res:R_0402</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">P100DECT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE8B7A9</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>SFUSAT-Res:R_0402</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">311-10.0KLRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE8B9EF</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>SFUSAT-Res:R_0402</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">311-10.0KLRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE8BB97</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>SFUSAT-Res:R_0402</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">311-10.0KLRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE8BC57</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>0.01uF</value>
+      <footprint>SFUSAT Caps:C_0402</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">478-7867-1-ND</field>
+        <field name="Footprint">0402</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE983E2</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>0.1uF</value>
+      <footprint>SFUSAT Caps:C_0402</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">587-4552-1-ND</field>
+        <field name="Footprint">0402</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE98474</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>0.01uF</value>
+      <footprint>SFUSAT Caps:C_0402</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">478-7867-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE984E0</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>0.1uF</value>
+      <footprint>SFUSAT Caps:C_0402</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">587-4552-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE98553</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>0.01uF</value>
+      <footprint>SFUSAT Caps:C_0402</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">478-7867-1-ND</field>
+        <field name="Footprint">0402</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE985C9</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>1uF</value>
+      <footprint>SFUSAT Caps:C_0603</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">490-1543-1-ND</field>
+        <field name="Footprint">0603</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE98760</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>0.1uF</value>
+      <footprint>SFUSAT Caps:C_0402</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">587-4552-1-ND</field>
+        <field name="Footprint">0402</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE99508</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>0.1uF</value>
+      <footprint>SFUSAT Caps:C_0402</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">587-4552-1-ND</field>
+        <field name="Footprint">0402</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE9A0D4</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>1uF</value>
+      <footprint>SFUSAT Caps:C_0603</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">490-1543-1-ND</field>
+        <field name="Footprint">0603</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE9A16C</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>2.2uF</value>
+      <footprint>SFUSAT Caps:C_0603</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">490-3296-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE9A209</tstamp>
+    </comp>
+    <comp ref="CON1">
+      <value>microSD_Card</value>
+      <footprint>Avionics:Micro_SD_WM11190CT</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">WM11190CT-ND</field>
+      </fields>
+      <libsource lib="AvionicsBoard-cache" part="microSD_Card"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AEA02E7</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>10k</value>
+      <footprint>SFUSAT-Res:R_0402</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">311-10.0KLRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AEA0E0A</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>10k</value>
+      <footprint>SFUSAT-Res:R_0402</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">311-10.0KLRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AEA0EEB</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>10k</value>
+      <footprint>SFUSAT-Res:R_0402</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">311-10.0KLRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AEA1017</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>0.1uF</value>
+      <footprint>SFUSAT Caps:C_0402</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">587-4552-1-ND</field>
+        <field name="Footprint">0402</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AEA905A</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>AT25SF161-16Mb_SPI_FLASH</value>
+      <footprint>Avionics:Flash_Mem_AT25SF161-SSHD</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">1265-1230-1-ND</field>
+      </fields>
+      <libsource lib="AvionicsBoard-cache" part="AT25SF161-16Mb_SPI_FLASH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AEB9F86</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>10k</value>
+      <footprint>SFUSAT-Res:R_0402</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">311-10.0KLRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AEBE71F</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>10k</value>
+      <footprint>SFUSAT-Res:R_0402</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">311-10.0KLRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AEBE7EE</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>USB_OTG</value>
+      <footprint>Avionics:USB_Connector_ZX62-B-5PA</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">H125279CT-ND</field>
+      </fields>
+      <libsource lib="AvionicsBoard-rescue" part="USB_OTG-RESCUE-AvionicsBoard"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AEC2F49</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>1uF</value>
+      <footprint>SFUSAT Caps:C_0603</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">490-1543-1-ND</field>
+        <field name="Footprint">0603</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AECAB18</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>1uF</value>
+      <footprint>SFUSAT Caps:C_0603</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">490-1543-1-ND</field>
+        <field name="Footprint">0603</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AECB307</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>1uF</value>
+      <footprint>SFUSAT Caps:C_0603</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">490-1543-1-ND</field>
+        <field name="Footprint">0603</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AECB3B0</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>10pF</value>
+      <footprint>SFUSAT Caps:C_0402</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">712-1252-1-ND</field>
+        <field name="Footprint">0402</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE863A7</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>10pF</value>
+      <footprint>SFUSAT Caps:C_0402</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">712-1252-1-ND</field>
+        <field name="Footprint">0402</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE864E0</tstamp>
+    </comp>
+    <comp ref="Y2">
+      <value>32.768kHz</value>
+      <footprint>Avionics:Crystal_32768Hz_Radial_Can</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">535-9034-ND</field>
+      </fields>
+      <libsource lib="device" part="Crystal"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE8956C</tstamp>
+    </comp>
+    <comp ref="Y1">
+      <value>16Mhz</value>
+      <footprint>Avionics:16MHz_Clock</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">631-1150-1-ND</field>
+        <field name="Manufacturer Part No">NX5032GA-16.000000MHZ-LN-CD-1</field>
+      </fields>
+      <libsource lib="device" part="Crystal"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE85C82</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>24pF</value>
+      <footprint>SFUSAT Caps:C_0402</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE8B1DF</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>24pF</value>
+      <footprint>SFUSAT Caps:C_0402</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">478-10149-1-ND</field>
+        <field name="Footprint">0402</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE8B710</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_RST</value>
+      <footprint>Avionics:Push_Button_B3S-1000</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">SW415-ND</field>
+      </fields>
+      <libsource lib="AvionicsBoard-cache" part="SW_PUSH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE8E80C</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>10k</value>
+      <footprint>SFUSAT-Res:R_0402</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">311-10.0KLRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE8F314</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>JST-2</value>
+      <footprint>Avionics:JST_B2B-EH-A(LF)(SN)</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">455-1611-ND</field>
+        <field name="Header Type">EH Header</field>
+      </fields>
+      <libsource lib="AvionicsBoard-cache" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE964AC</tstamp>
+    </comp>
+    <comp ref="U8">
+      <value>CONNHeaderFemale16</value>
+      <footprint>Avionics:16x1_Female_Header</footprint>
+      <libsource lib="AvionicsBoard-cache" part="CONNHeaderFemale16"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B41BDEB</tstamp>
+    </comp>
+    <comp ref="U9">
+      <value>CONNHeaderFemale16</value>
+      <footprint>Avionics:16x1_Female_Header</footprint>
+      <libsource lib="AvionicsBoard-cache" part="CONNHeaderFemale16"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B41BEC2</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>100</value>
+      <footprint>SFUSAT-Res:R_0402</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">P100DECT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B4A5634</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>Led_Small</value>
+      <footprint>SFUSAT-Res:R_0603</footprint>
+      <fields>
+        <field name="Digi-Key Number">160-1435-1-ND</field>
+      </fields>
+      <libsource lib="AvionicsBoard-cache" part="Led_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B4A5AE8</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>MPL3115A2</value>
+      <footprint>Avionics:MPL3115A2</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">MPL3115A2-ND</field>
+      </fields>
+      <libsource lib="mpl3115a2" part="MPL3115A2"/>
+      <sheetpath names="/Sensors/" tstamps="/5AE7747B/"/>
+      <tstamp>5AE7793E</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>LIS331</value>
+      <footprint>Avionics:LIS331HH</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">497-10134-ND</field>
+      </fields>
+      <libsource lib="lis331" part="LIS331"/>
+      <sheetpath names="/Sensors/" tstamps="/5AE7747B/"/>
+      <tstamp>5AE779FB</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>L3GD20HTR</value>
+      <footprint>Avionics:Gyro_L3GD20HTR</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">497-13931-1-ND</field>
+      </fields>
+      <libsource lib="l3gd20htr" part="L3GD20HTR"/>
+      <sheetpath names="/Sensors/" tstamps="/5AE7747B/"/>
+      <tstamp>5AE77A26</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>10uF</value>
+      <footprint>SFUSAT Caps:C_1206</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">478-10756-1-ND</field>
+      </fields>
+      <libsource lib="device" part="CP1"/>
+      <sheetpath names="/Sensors/" tstamps="/5AE7747B/"/>
+      <tstamp>5AE77D1E</tstamp>
+    </comp>
+    <comp ref="C24">
+      <value>0.1uF</value>
+      <footprint>SFUSAT Caps:C_0402</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">587-4552-1-ND</field>
+        <field name="Footprint">0402</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Sensors/" tstamps="/5AE7747B/"/>
+      <tstamp>5AE77DC3</tstamp>
+    </comp>
+    <comp ref="JP2">
+      <value>Jumper_NC_Small</value>
+      <footprint>Avionics:NC_Jumper</footprint>
+      <libsource lib="device" part="Jumper_NC_Small"/>
+      <sheetpath names="/Sensors/" tstamps="/5AE7747B/"/>
+      <tstamp>5AE7870B</tstamp>
+    </comp>
+    <comp ref="JP1">
+      <value>Jumper_NO_Small</value>
+      <footprint>Avionics:NO_Jumper</footprint>
+      <libsource lib="device" part="Jumper_NO_Small"/>
+      <sheetpath names="/Sensors/" tstamps="/5AE7747B/"/>
+      <tstamp>5AE78786</tstamp>
+    </comp>
+    <comp ref="C27">
+      <value>0.1uF</value>
+      <footprint>SFUSAT Caps:C_0402</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">587-4552-1-ND</field>
+        <field name="Footprint">0402</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Sensors/" tstamps="/5AE7747B/"/>
+      <tstamp>5AE7A368</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>10uF</value>
+      <footprint>SFUSAT Caps:C_1206</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">478-10756-1-ND</field>
+      </fields>
+      <libsource lib="device" part="CP1"/>
+      <sheetpath names="/Sensors/" tstamps="/5AE7747B/"/>
+      <tstamp>5AE7AAE6</tstamp>
+    </comp>
+    <comp ref="C22">
+      <value>0.1uF</value>
+      <footprint>SFUSAT Caps:C_0402</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">587-4552-1-ND</field>
+        <field name="Footprint">0402</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Sensors/" tstamps="/5AE7747B/"/>
+      <tstamp>5AE7AAEC</tstamp>
+    </comp>
+    <comp ref="C25">
+      <value>1uF</value>
+      <footprint>SFUSAT Caps:C_0603</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">490-1543-1-ND</field>
+        <field name="Footprint">0603</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Sensors/" tstamps="/5AE7747B/"/>
+      <tstamp>5AE7AB7A</tstamp>
+    </comp>
+    <comp ref="C28">
+      <value>10nF(25V)</value>
+      <footprint>SFUSAT Caps:C_0402</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">478-7867-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Sensors/" tstamps="/5AE7747B/"/>
+      <tstamp>5AE7CBFF</tstamp>
+    </comp>
+    <comp ref="C23">
+      <value>.1uF</value>
+      <footprint>SFUSAT Caps:C_0402</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">587-4552-1-ND</field>
+        <field name="Footprint">0402</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Sensors/" tstamps="/5AE7747B/"/>
+      <tstamp>5AE7D7B5</tstamp>
+    </comp>
+    <comp ref="C26">
+      <value>.1uF</value>
+      <footprint>SFUSAT Caps:C_0402</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">587-4552-1-ND</field>
+        <field name="Footprint">0402</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Sensors/" tstamps="/5AE7747B/"/>
+      <tstamp>5AE7D7C1</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>10uF</value>
+      <footprint>SFUSAT Caps:C_0603</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">1276-1871-1-ND</field>
+        <field name="Footprint">0603</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Sensors/" tstamps="/5AE7747B/"/>
+      <tstamp>5AE7D9AB</tstamp>
+    </comp>
+    <comp ref="JP4">
+      <value>Jumper_NC_Small</value>
+      <footprint>Avionics:NC_Jumper</footprint>
+      <libsource lib="device" part="Jumper_NC_Small"/>
+      <sheetpath names="/Sensors/" tstamps="/5AE7747B/"/>
+      <tstamp>5AE7E366</tstamp>
+    </comp>
+    <comp ref="JP3">
+      <value>Jumper_NO_Small</value>
+      <footprint>Avionics:NO_Jumper</footprint>
+      <libsource lib="device" part="Jumper_NO_Small"/>
+      <sheetpath names="/Sensors/" tstamps="/5AE7747B/"/>
+      <tstamp>5AE7E36C</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>MCP73831</value>
+      <footprint>Avionics:MCP73831T-2ACI&amp;slash_OT</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">MCP73831T-2ACI/OTCT-ND</field>
+      </fields>
+      <libsource lib="AvionicsBoard-cache" part="MCP73831"/>
+      <sheetpath names="/Power/" tstamps="/5AE8FB66/"/>
+      <tstamp>5AE8FCA0</tstamp>
+    </comp>
+    <comp ref="U7">
+      <value>MIC5219-3.3BM5</value>
+      <footprint>Avionics:MIC5219-3.3YM5-TR</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">576-1281-1-ND</field>
+      </fields>
+      <libsource lib="AvionicsBoard-cache" part="MIC5219-3.3BM5"/>
+      <sheetpath names="/Power/" tstamps="/5AE8FB66/"/>
+      <tstamp>5AE8FCE7</tstamp>
+    </comp>
+    <comp ref="C29">
+      <value>4.7uF</value>
+      <footprint>SFUSAT Caps:C_0603</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">445-7478-1-ND</field>
+        <field name="Footprint">0603</field>
+        <field name="Rated Voltage">16V</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Power/" tstamps="/5AE8FB66/"/>
+      <tstamp>5AE905AA</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>B340A</value>
+      <footprint>Avionics:B340A</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">B340A-FDICT-ND</field>
+      </fields>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/Power/" tstamps="/5AE8FB66/"/>
+      <tstamp>5AE907ED</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>10k</value>
+      <footprint>SFUSAT-Res:R_0402</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">311-10.0KLRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Power/" tstamps="/5AE8FB66/"/>
+      <tstamp>5AE90B61</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>RED</value>
+      <footprint>SFUSAT-Res:R_0603</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">160-1447-1-ND</field>
+      </fields>
+      <libsource lib="AvionicsBoard-cache" part="Led_Small"/>
+      <sheetpath names="/Power/" tstamps="/5AE8FB66/"/>
+      <tstamp>5AE90ED9</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>330</value>
+      <footprint>SFUSAT-Res:R_0402</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">RR05P330DCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Power/" tstamps="/5AE8FB66/"/>
+      <tstamp>5AE911EE</tstamp>
+    </comp>
+    <comp ref="C32">
+      <value>470pF</value>
+      <footprint>SFUSAT Caps:C_0402</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">490-1300-1-ND</field>
+        <field name="Footprint">0402</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Power/" tstamps="/5AE8FB66/"/>
+      <tstamp>5AE91952</tstamp>
+    </comp>
+    <comp ref="C31">
+      <value>2.2uF</value>
+      <footprint>SFUSAT Caps:C_0603</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">490-10486-6-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Power/" tstamps="/5AE8FB66/"/>
+      <tstamp>5AE91E4B</tstamp>
+    </comp>
+    <comp ref="C30">
+      <value>4.7uF</value>
+      <footprint>SFUSAT Caps:C_0603</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">445-7478-1-ND</field>
+        <field name="Footprint">0603</field>
+        <field name="Rated Voltage">16V</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Power/" tstamps="/5AE8FB66/"/>
+      <tstamp>5AE9276A</tstamp>
+    </comp>
+    <comp ref="U10">
+      <value>DMG1029SV-7</value>
+      <footprint>AvionicsIC:SOT563</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">DMP2004VKDICT-ND</field>
+      </fields>
+      <libsource lib="AvionicsBoard-rescue" part="DMG1029SV-7"/>
+      <sheetpath names="/Power Switch/" tstamps="/5B4A1B25/"/>
+      <tstamp>5B4A3342</tstamp>
+    </comp>
+    <comp ref="U11">
+      <value>CSS-1210TB</value>
+      <footprint>Avionics:CSS-1210TB</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">563-1091-1-ND</field>
+      </fields>
+      <libsource lib="css-1210tb" part="CSS-1210TB"/>
+      <sheetpath names="/Power Switch/" tstamps="/5B4A1B25/"/>
+      <tstamp>5B4A3383</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="AvionicsBoard-cache" part="AT25SF161-16Mb_SPI_FLASH">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AT25SF161-16Mb_SPI_FLASH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~CS" type="input"/>
+        <pin num="2" name="SO" type="input"/>
+        <pin num="3" name="~WP" type="input"/>
+        <pin num="4" name="GND" type="input"/>
+        <pin num="5" name="SI" type="input"/>
+        <pin num="6" name="SCK" type="input"/>
+        <pin num="7" name="~HOLD" type="input"/>
+        <pin num="8" name="VCC" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AvionicsBoard-cache" part="CONNHeaderFemale16">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CONNHeaderFemale16</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+        <pin num="3" name="3" type="input"/>
+        <pin num="4" name="4" type="input"/>
+        <pin num="5" name="5" type="input"/>
+        <pin num="6" name="6" type="input"/>
+        <pin num="7" name="7" type="input"/>
+        <pin num="8" name="8" type="input"/>
+        <pin num="9" name="9" type="input"/>
+        <pin num="10" name="10" type="input"/>
+        <pin num="11" name="11" type="input"/>
+        <pin num="12" name="12" type="input"/>
+        <pin num="13" name="13" type="input"/>
+        <pin num="14" name="14" type="input"/>
+        <pin num="15" name="15" type="input"/>
+        <pin num="16" name="16" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="AvionicsBoard-cache" part="CONN_01X02">
+      <footprints>
+        <fp>Pin_Header_Straight_1X02</fp>
+        <fp>Pin_Header_Angled_1X02</fp>
+        <fp>Socket_Strip_Straight_1X02</fp>
+        <fp>Socket_Strip_Angled_1X02</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="CP1">
+      <description>Polarised capacitor</description>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="css-1210tb" part="CSS-1210TB">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CSS-1210TB</field>
+      </fields>
+      <pins>
+        <pin num="1" name="T1" type="input"/>
+        <pin num="2" name="T2" type="input"/>
+        <pin num="3" name="CT" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Crystal">
+      <description>Two pin crystal</description>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="D">
+      <description>Diode</description>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AvionicsBoard-rescue" part="DMG1029SV-7">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">DMG1029SV-7</field>
+      </fields>
+      <pins>
+        <pin num="1" name="S2" type="input"/>
+        <pin num="2" name="G2" type="input"/>
+        <pin num="3" name="D1" type="input"/>
+        <pin num="4" name="S1" type="input"/>
+        <pin num="5" name="G1" type="input"/>
+        <pin num="6" name="D2" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="tm4c123gh6pm" part="FTSH-105-01-F-DV">
+      <description>Connector, double row, 02x05</description>
+      <footprints>
+        <fp>Pin_Header_Straight_2X05</fp>
+        <fp>Pin_Header_Angled_2X05</fp>
+        <fp>Socket_Strip_Straight_2X05</fp>
+        <fp>Socket_Strip_Angled_2X05</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">FTSH-105-01-F-DV</field>
+      </fields>
+      <pins>
+        <pin num="1" name="3V3" type="input"/>
+        <pin num="2" name="JTAG_TMS" type="input"/>
+        <pin num="3" name="GND" type="input"/>
+        <pin num="4" name="JTAG_TCK" type="input"/>
+        <pin num="5" name="GND" type="input"/>
+        <pin num="6" name="JTAG_TDO" type="input"/>
+        <pin num="7" name="7" type="NotConnected"/>
+        <pin num="8" name="JTAG_TDO" type="input"/>
+        <pin num="9" name="GND" type="input"/>
+        <pin num="10" name="RST_N" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Jumper_NC_Small">
+      <description>Jumper, normally closed</description>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper_NC_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Jumper_NO_Small">
+      <description>Jumper, normally open</description>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper_NO_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="l3gd20htr" part="L3GD20HTR">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">L3GD20HTR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD_IO" type="input"/>
+        <pin num="2" name="SCL/SPC" type="input"/>
+        <pin num="3" name="SDA/SDI" type="input"/>
+        <pin num="4" name="SDO/SA0" type="input"/>
+        <pin num="5" name="CS" type="input"/>
+        <pin num="6" name="DRDY/INT2" type="input"/>
+        <pin num="7" name="INT1" type="input"/>
+        <pin num="8" name="DEN" type="input"/>
+        <pin num="9" name="GND" type="input"/>
+        <pin num="10" name="GND" type="input"/>
+        <pin num="11" name="GND" type="input"/>
+        <pin num="12" name="GND" type="input"/>
+        <pin num="13" name="GND" type="input"/>
+        <pin num="14" name="Cap" type="input"/>
+        <pin num="15" name="VDD" type="input"/>
+        <pin num="16" name="VDD" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="lis331" part="LIS331">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LIS331</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDDIO" type="input"/>
+        <pin num="2" name="NC" type="input"/>
+        <pin num="3" name="NC" type="input"/>
+        <pin num="4" name="SCL/SPC" type="input"/>
+        <pin num="5" name="GND" type="input"/>
+        <pin num="6" name="SDA/SDI" type="input"/>
+        <pin num="7" name="SDO/SA0" type="input"/>
+        <pin num="8" name="CS" type="input"/>
+        <pin num="9" name="INT_2" type="input"/>
+        <pin num="10" name="GND" type="input"/>
+        <pin num="11" name="INT_1" type="input"/>
+        <pin num="12" name="GND" type="input"/>
+        <pin num="13" name="GND" type="input"/>
+        <pin num="14" name="VDD" type="input"/>
+        <pin num="15" name="VDD" type="input"/>
+        <pin num="16" name="GND" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="AvionicsBoard-cache" part="Led_Small">
+      <footprints>
+        <fp>LED-*</fp>
+        <fp>LED_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">Led_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AvionicsBoard-cache" part="MCP73831">
+      <description>SOT-23</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP73831</field>
+      </fields>
+      <pins>
+        <pin num="1" name="STAT" type="input"/>
+        <pin num="2" name="VSS" type="input"/>
+        <pin num="3" name="VBAT" type="input"/>
+        <pin num="4" name="VIN" type="input"/>
+        <pin num="5" name="PROG" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="AvionicsBoard-cache" part="MIC5219-3.3BM5">
+      <description> SOT-23-5</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MIC5219-3.3BM5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="input"/>
+        <pin num="2" name="GND" type="input"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="BYP" type="input"/>
+        <pin num="5" name="OUT" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="mpl3115a2" part="MPL3115A2">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MPL3115A2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="input"/>
+        <pin num="2" name="CAP" type="input"/>
+        <pin num="3" name="GND" type="input"/>
+        <pin num="4" name="VDD_IO" type="input"/>
+        <pin num="5" name="INT2" type="input"/>
+        <pin num="6" name="INT1" type="input"/>
+        <pin num="7" name="SDL" type="input"/>
+        <pin num="8" name="SCL" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AvionicsBoard-cache" part="SW_PUSH">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_PUSH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="tm4c123gh6pm" part="TM4C123GH6PM">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TM4C123GH6PM</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PB6" type="input"/>
+        <pin num="2" name="VDDA" type="input"/>
+        <pin num="3" name="GNDA" type="input"/>
+        <pin num="4" name="PB7" type="input"/>
+        <pin num="5" name="PF4" type="input"/>
+        <pin num="6" name="PE3" type="input"/>
+        <pin num="7" name="PE2" type="input"/>
+        <pin num="8" name="PE1" type="input"/>
+        <pin num="9" name="PE0" type="input"/>
+        <pin num="10" name="PD7" type="input"/>
+        <pin num="11" name="VDD" type="input"/>
+        <pin num="12" name="GND" type="input"/>
+        <pin num="13" name="PC7" type="input"/>
+        <pin num="14" name="PC6" type="input"/>
+        <pin num="15" name="PC5" type="input"/>
+        <pin num="16" name="PC4" type="input"/>
+        <pin num="17" name="PA0/U0Rx" type="input"/>
+        <pin num="18" name="PA1/U0Tx" type="input"/>
+        <pin num="19" name="PA2/SSI0Clk" type="input"/>
+        <pin num="20" name="PA3/SSI0Fss" type="input"/>
+        <pin num="21" name="PA4/SSI0Rx" type="input"/>
+        <pin num="22" name="PA5/SSI0Tx" type="input"/>
+        <pin num="23" name="PA6" type="input"/>
+        <pin num="24" name="PA7" type="input"/>
+        <pin num="25" name="VDDC" type="input"/>
+        <pin num="26" name="VDD" type="input"/>
+        <pin num="27" name="GND" type="input"/>
+        <pin num="28" name="PF0" type="input"/>
+        <pin num="29" name="PF1" type="input"/>
+        <pin num="30" name="PF2" type="input"/>
+        <pin num="31" name="PF3" type="input"/>
+        <pin num="32" name="WAKE" type="input"/>
+        <pin num="33" name="HIB" type="input"/>
+        <pin num="34" name="XOSC0" type="input"/>
+        <pin num="35" name="GNDX" type="input"/>
+        <pin num="36" name="XOSC1" type="input"/>
+        <pin num="37" name="VBAT" type="input"/>
+        <pin num="38" name="RST" type="input"/>
+        <pin num="39" name="GND" type="input"/>
+        <pin num="40" name="OSC0" type="input"/>
+        <pin num="41" name="OSC1" type="input"/>
+        <pin num="42" name="VDD" type="input"/>
+        <pin num="43" name="PD4" type="input"/>
+        <pin num="44" name="PD5" type="input"/>
+        <pin num="45" name="PB0/USB0ID" type="input"/>
+        <pin num="46" name="PB1/USB0VBUS" type="input"/>
+        <pin num="47" name="PB2/I2C0SCL" type="input"/>
+        <pin num="48" name="PB3/I2C0SDA" type="input"/>
+        <pin num="49" name="PC3/TD0/SWO" type="input"/>
+        <pin num="50" name="PC2/TDI" type="input"/>
+        <pin num="51" name="PC1/TMS/SWDIO" type="input"/>
+        <pin num="52" name="PC0/TCK/SWCLK" type="input"/>
+        <pin num="53" name="PD6" type="input"/>
+        <pin num="54" name="VDD" type="input"/>
+        <pin num="55" name="GND" type="input"/>
+        <pin num="56" name="VDDC" type="input"/>
+        <pin num="57" name="PB5" type="input"/>
+        <pin num="58" name="PB4" type="input"/>
+        <pin num="59" name="PE4" type="input"/>
+        <pin num="60" name="PE5" type="input"/>
+        <pin num="61" name="PD0" type="input"/>
+        <pin num="62" name="PD1" type="input"/>
+        <pin num="63" name="PD2" type="input"/>
+        <pin num="64" name="PD3" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="AvionicsBoard-rescue" part="USB_OTG-RESCUE-AvionicsBoard">
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">USB_OTG-RESCUE-AvionicsBoard</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="power_out"/>
+        <pin num="2" name="D-" type="passive"/>
+        <pin num="3" name="D+" type="passive"/>
+        <pin num="4" name="ID" type="power_in"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="shield" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AvionicsBoard-cache" part="microSD_Card">
+      <fields>
+        <field name="Reference">CON</field>
+        <field name="Value">microSD_Card</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NC1" type="input"/>
+        <pin num="2" name="~CS" type="input"/>
+        <pin num="3" name="DI" type="input"/>
+        <pin num="4" name="VDD" type="input"/>
+        <pin num="5" name="CLK" type="input"/>
+        <pin num="6" name="VSS" type="input"/>
+        <pin num="7" name="DO" type="input"/>
+        <pin num="8" name="RSV" type="input"/>
+        <pin num="9" name="X1" type="input"/>
+        <pin num="10" name="X2" type="input"/>
+        <pin num="11" name="X3" type="input"/>
+        <pin num="12" name="X4" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="AvionicsBoard-rescue">
+      <uri>C:\Users\harri\Documents\GitHub\Model Rocketry\Avionics-Board\ModelRocketAvionicsPCB\AvionicsBoard-rescue.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>C:\Program Files\KiCad\share\kicad\library\device.lib</uri>
+    </library>
+    <library logical="tm4c123gh6pm">
+      <uri>C:\Users\harri\Documents\GitHub\Model Rocketry\Avionics-Board\ModelRocketAvionicsPCB\tm4c123gh6pm.lib</uri>
+    </library>
+    <library logical="lis331">
+      <uri>C:\Users\harri\Documents\GitHub\Model Rocketry\Avionics-Board\ModelRocketAvionicsPCB\lis331.lib</uri>
+    </library>
+    <library logical="AvionicsBoard-cache">
+      <uri>C:\Users\harri\Documents\GitHub\Model Rocketry\Avionics-Board\ModelRocketAvionicsPCB\AvionicsBoard-cache.lib</uri>
+    </library>
+    <library logical="mpl3115a2">
+      <uri>C:\Users\harri\Documents\GitHub\Model Rocketry\Avionics-Board\ModelRocketAvionicsPCB\mpl3115a2.lib</uri>
+    </library>
+    <library logical="l3gd20htr">
+      <uri>C:\Users\harri\Documents\GitHub\Model Rocketry\Avionics-Board\ModelRocketAvionicsPCB\l3gd20htr.lib</uri>
+    </library>
+    <library logical="css-1210tb">
+      <uri>C:\Users\harri\Documents\GitHub\Model Rocketry\Avionics-Board\ModelRocketAvionicsPCB\css-1210tb.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(CON1-Pad1)">
+      <node ref="R10" pin="2"/>
+      <node ref="CON1" pin="1"/>
+    </net>
+    <net code="2" name="Net-(CON1-Pad8)">
+      <node ref="CON1" pin="8"/>
+      <node ref="R11" pin="1"/>
+    </net>
+    <net code="3" name="Net-(R8-Pad2)">
+      <node ref="R8" pin="2"/>
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="4" name="Net-(R12-Pad2)">
+      <node ref="R12" pin="2"/>
+      <node ref="U2" pin="7"/>
+    </net>
+    <net code="5" name="PA5/SDDI">
+      <node ref="U2" pin="5"/>
+      <node ref="U1" pin="22"/>
+      <node ref="CON1" pin="3"/>
+    </net>
+    <net code="6" name="PA4/SDDO">
+      <node ref="CON1" pin="7"/>
+      <node ref="U2" pin="2"/>
+      <node ref="U1" pin="21"/>
+    </net>
+    <net code="7" name="PA3/SD~CS">
+      <node ref="U2" pin="1"/>
+      <node ref="CON1" pin="2"/>
+      <node ref="U1" pin="20"/>
+      <node ref="R9" pin="2"/>
+    </net>
+    <net code="8" name="PA2/SDCLK">
+      <node ref="CON1" pin="5"/>
+      <node ref="U2" pin="6"/>
+      <node ref="U1" pin="19"/>
+    </net>
+    <net code="9" name="PC3/JTAG_TDO">
+      <node ref="P1" pin="6"/>
+      <node ref="U1" pin="49"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="10" name="PC1/JTAG_TMS">
+      <node ref="R2" pin="2"/>
+      <node ref="U1" pin="51"/>
+      <node ref="P1" pin="2"/>
+    </net>
+    <net code="11" name="PC0/JTAG_TCK">
+      <node ref="U1" pin="52"/>
+      <node ref="P1" pin="4"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="12" name="PA1/U0Tx">
+      <node ref="U8" pin="8"/>
+      <node ref="U1" pin="18"/>
+    </net>
+    <net code="13" name="PF2/BAR_INT1">
+      <node ref="U5" pin="6"/>
+      <node ref="U1" pin="30"/>
+    </net>
+    <net code="14" name="PF3/BAR_INT2">
+      <node ref="U5" pin="5"/>
+      <node ref="U1" pin="31"/>
+    </net>
+    <net code="15" name="PE0">
+      <node ref="U8" pin="15"/>
+      <node ref="U1" pin="9"/>
+    </net>
+    <net code="16" name="PD7">
+      <node ref="U8" pin="14"/>
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="17" name="PC7">
+      <node ref="U1" pin="13"/>
+      <node ref="U8" pin="13"/>
+    </net>
+    <net code="18" name="PC6">
+      <node ref="U8" pin="12"/>
+      <node ref="U1" pin="14"/>
+    </net>
+    <net code="19" name="PC5">
+      <node ref="U1" pin="15"/>
+      <node ref="U8" pin="11"/>
+    </net>
+    <net code="20" name="PC4">
+      <node ref="U8" pin="10"/>
+      <node ref="U1" pin="16"/>
+    </net>
+    <net code="21" name="PA0/U0Rx">
+      <node ref="U8" pin="9"/>
+      <node ref="U1" pin="17"/>
+    </net>
+    <net code="22" name="PC2/JTAG_TDI">
+      <node ref="P1" pin="8"/>
+      <node ref="U1" pin="50"/>
+    </net>
+    <net code="23" name="USB0_D-">
+      <node ref="P2" pin="2"/>
+      <node ref="U1" pin="43"/>
+    </net>
+    <net code="24" name="USB0_D+">
+      <node ref="U1" pin="44"/>
+      <node ref="P2" pin="3"/>
+    </net>
+    <net code="25" name="PB0/USB0_ID">
+      <node ref="U1" pin="45"/>
+      <node ref="P2" pin="4"/>
+    </net>
+    <net code="26" name="Net-(P1-Pad1)">
+      <node ref="P1" pin="1"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="27" name="PWR_VDDC">
+      <node ref="U1" pin="56"/>
+      <node ref="C7" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="U1" pin="25"/>
+      <node ref="C10" pin="1"/>
+    </net>
+    <net code="28" name="WAKE">
+      <node ref="U8" pin="5"/>
+      <node ref="U1" pin="32"/>
+    </net>
+    <net code="29" name="PA7">
+      <node ref="U8" pin="6"/>
+      <node ref="U1" pin="24"/>
+    </net>
+    <net code="30" name="PA6">
+      <node ref="U1" pin="23"/>
+      <node ref="U8" pin="7"/>
+    </net>
+    <net code="31" name="PWR_GND">
+      <node ref="C9" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="P1" pin="3"/>
+      <node ref="P1" pin="9"/>
+      <node ref="R3" pin="2"/>
+      <node ref="P1" pin="5"/>
+      <node ref="JP2" pin="2"/>
+      <node ref="C26" pin="2"/>
+      <node ref="U2" pin="4"/>
+      <node ref="C21" pin="2"/>
+      <node ref="C24" pin="2"/>
+      <node ref="P3" pin="2"/>
+      <node ref="C14" pin="2"/>
+      <node ref="U1" pin="39"/>
+      <node ref="U1" pin="27"/>
+      <node ref="U5" pin="3"/>
+      <node ref="CON1" pin="12"/>
+      <node ref="U4" pin="10"/>
+      <node ref="D3" pin="1"/>
+      <node ref="U4" pin="9"/>
+      <node ref="U4" pin="11"/>
+      <node ref="U4" pin="12"/>
+      <node ref="U4" pin="13"/>
+      <node ref="U8" pin="16"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="U9" pin="1"/>
+      <node ref="U9" pin="2"/>
+      <node ref="U3" pin="16"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="CON1" pin="11"/>
+      <node ref="CON1" pin="10"/>
+      <node ref="CON1" pin="9"/>
+      <node ref="CON1" pin="6"/>
+      <node ref="R11" pin="2"/>
+      <node ref="C23" pin="2"/>
+      <node ref="U1" pin="55"/>
+      <node ref="U3" pin="5"/>
+      <node ref="U1" pin="3"/>
+      <node ref="C10" pin="2"/>
+      <node ref="U1" pin="12"/>
+      <node ref="U3" pin="10"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="U3" pin="12"/>
+      <node ref="C3" pin="2"/>
+      <node ref="U3" pin="13"/>
+      <node ref="U7" pin="2"/>
+      <node ref="C29" pin="2"/>
+      <node ref="U6" pin="2"/>
+      <node ref="R14" pin="1"/>
+      <node ref="C32" pin="2"/>
+      <node ref="C25" pin="2"/>
+      <node ref="C31" pin="2"/>
+      <node ref="C22" pin="2"/>
+      <node ref="C19" pin="2"/>
+      <node ref="U11" pin="2"/>
+      <node ref="U10" pin="5"/>
+      <node ref="U10" pin="4"/>
+      <node ref="U10" pin="3"/>
+      <node ref="P2" pin="5"/>
+      <node ref="P2" pin="6"/>
+      <node ref="C28" pin="2"/>
+      <node ref="C20" pin="2"/>
+      <node ref="JP4" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="C15" pin="2"/>
+      <node ref="C16" pin="2"/>
+      <node ref="C30" pin="2"/>
+      <node ref="C27" pin="2"/>
+    </net>
+    <net code="32" name="PF0">
+      <node ref="U1" pin="28"/>
+    </net>
+    <net code="33" name="PF1">
+      <node ref="U1" pin="29"/>
+    </net>
+    <net code="34" name="HIB">
+      <node ref="U9" pin="7"/>
+      <node ref="U1" pin="33"/>
+    </net>
+    <net code="35" name="PD6">
+      <node ref="U1" pin="53"/>
+      <node ref="U9" pin="5"/>
+    </net>
+    <net code="36" name="PE4">
+      <node ref="U9" pin="10"/>
+      <node ref="U1" pin="59"/>
+    </net>
+    <net code="37" name="PE5">
+      <node ref="U9" pin="11"/>
+      <node ref="U1" pin="60"/>
+    </net>
+    <net code="38" name="PB4">
+      <node ref="U1" pin="58"/>
+      <node ref="U9" pin="9"/>
+    </net>
+    <net code="39" name="PD3/SSI1Tx">
+      <node ref="U1" pin="64"/>
+      <node ref="U9" pin="15"/>
+    </net>
+    <net code="40" name="PD2/SSI1Rx">
+      <node ref="U1" pin="63"/>
+      <node ref="U9" pin="14"/>
+    </net>
+    <net code="41" name="PD1/SSI1Fss">
+      <node ref="U9" pin="13"/>
+      <node ref="U1" pin="62"/>
+    </net>
+    <net code="42" name="PD0/SSI1CLK">
+      <node ref="U1" pin="61"/>
+      <node ref="U9" pin="12"/>
+    </net>
+    <net code="43" name="PB5">
+      <node ref="U9" pin="8"/>
+      <node ref="U1" pin="57"/>
+    </net>
+    <net code="44" name="RESET">
+      <node ref="U9" pin="6"/>
+      <node ref="R7" pin="2"/>
+      <node ref="U1" pin="38"/>
+      <node ref="P1" pin="10"/>
+      <node ref="SW1" pin="2"/>
+    </net>
+    <net code="45" name="PB3/I2C_SDA">
+      <node ref="U3" pin="6"/>
+      <node ref="U4" pin="3"/>
+      <node ref="R5" pin="2"/>
+      <node ref="U5" pin="7"/>
+      <node ref="U1" pin="48"/>
+      <node ref="U9" pin="4"/>
+    </net>
+    <net code="46" name="PB2/I2C_SCL">
+      <node ref="U9" pin="3"/>
+      <node ref="U1" pin="47"/>
+      <node ref="R6" pin="2"/>
+      <node ref="U5" pin="8"/>
+      <node ref="U3" pin="4"/>
+      <node ref="U4" pin="2"/>
+    </net>
+    <net code="47" name="XOSC1">
+      <node ref="U1" pin="36"/>
+      <node ref="C18" pin="2"/>
+      <node ref="Y2" pin="1"/>
+    </net>
+    <net code="48" name="XOSC0">
+      <node ref="U1" pin="34"/>
+      <node ref="Y2" pin="2"/>
+      <node ref="C17" pin="1"/>
+    </net>
+    <net code="49" name="XGND">
+      <node ref="C17" pin="2"/>
+      <node ref="C18" pin="1"/>
+      <node ref="U1" pin="35"/>
+    </net>
+    <net code="50" name="OSC1">
+      <node ref="Y1" pin="2"/>
+      <node ref="C15" pin="1"/>
+      <node ref="U1" pin="41"/>
+    </net>
+    <net code="51" name="OSC0">
+      <node ref="U1" pin="40"/>
+      <node ref="Y1" pin="1"/>
+      <node ref="C16" pin="1"/>
+    </net>
+    <net code="52" name="PB6/GYR_INT2/DRDY">
+      <node ref="U1" pin="1"/>
+      <node ref="U4" pin="6"/>
+    </net>
+    <net code="53" name="PF4/GYR_DEN">
+      <node ref="U1" pin="5"/>
+      <node ref="U4" pin="8"/>
+    </net>
+    <net code="54" name="PE3/ACC_INT1">
+      <node ref="U1" pin="6"/>
+      <node ref="U3" pin="11"/>
+    </net>
+    <net code="55" name="PE2/ACC_INT2">
+      <node ref="U1" pin="7"/>
+      <node ref="U3" pin="9"/>
+    </net>
+    <net code="56" name="+VBAT">
+      <node ref="U10" pin="6"/>
+      <node ref="U11" pin="1"/>
+      <node ref="U8" pin="2"/>
+      <node ref="U8" pin="1"/>
+      <node ref="P3" pin="1"/>
+    </net>
+    <net code="57" name="+VBAT_ON">
+      <node ref="U10" pin="1"/>
+      <node ref="U6" pin="3"/>
+      <node ref="D2" pin="2"/>
+      <node ref="C30" pin="1"/>
+    </net>
+    <net code="58" name="Net-(D3-Pad2)">
+      <node ref="D3" pin="2"/>
+      <node ref="R15" pin="1"/>
+    </net>
+    <net code="59" name="PE1/IND_LED">
+      <node ref="R15" pin="2"/>
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="60" name="+USB_VBUS">
+      <node ref="U6" pin="4"/>
+      <node ref="U1" pin="46"/>
+      <node ref="D2" pin="1"/>
+      <node ref="C29" pin="1"/>
+      <node ref="P2" pin="1"/>
+      <node ref="U7" pin="1"/>
+      <node ref="U7" pin="3"/>
+      <node ref="C11" pin="1"/>
+      <node ref="C12" pin="1"/>
+      <node ref="C13" pin="1"/>
+      <node ref="R13" pin="2"/>
+    </net>
+    <net code="61" name="PB7/GYR_INT1">
+      <node ref="U4" pin="7"/>
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="62" name="Net-(P1-Pad7)">
+      <node ref="P1" pin="7"/>
+    </net>
+    <net code="63" name="GYR_LSB">
+      <node ref="U4" pin="4"/>
+      <node ref="JP3" pin="1"/>
+      <node ref="JP4" pin="1"/>
+    </net>
+    <net code="64" name="Net-(C27-Pad1)">
+      <node ref="C27" pin="1"/>
+      <node ref="U5" pin="2"/>
+    </net>
+    <net code="65" name="Net-(U3-Pad2)">
+      <node ref="U3" pin="2"/>
+    </net>
+    <net code="66" name="Net-(C28-Pad1)">
+      <node ref="U4" pin="14"/>
+      <node ref="C28" pin="1"/>
+    </net>
+    <net code="67" name="Net-(U3-Pad3)">
+      <node ref="U3" pin="3"/>
+    </net>
+    <net code="68" name="ACC_LSB">
+      <node ref="U3" pin="7"/>
+      <node ref="JP2" pin="1"/>
+      <node ref="JP1" pin="1"/>
+    </net>
+    <net code="69" name="ACC_CS">
+      <node ref="JP1" pin="2"/>
+      <node ref="U1" pin="2"/>
+      <node ref="U7" pin="5"/>
+      <node ref="C31" pin="1"/>
+      <node ref="R12" pin="1"/>
+      <node ref="JP3" pin="2"/>
+      <node ref="R8" pin="1"/>
+      <node ref="C20" pin="1"/>
+      <node ref="C23" pin="1"/>
+      <node ref="R9" pin="1"/>
+      <node ref="U2" pin="8"/>
+      <node ref="C26" pin="1"/>
+      <node ref="C14" pin="1"/>
+      <node ref="U8" pin="4"/>
+      <node ref="R10" pin="1"/>
+      <node ref="C19" pin="1"/>
+      <node ref="C22" pin="1"/>
+      <node ref="C25" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="U4" pin="5"/>
+      <node ref="C1" pin="1"/>
+      <node ref="U4" pin="1"/>
+      <node ref="CON1" pin="4"/>
+      <node ref="U3" pin="15"/>
+      <node ref="U3" pin="14"/>
+      <node ref="U8" pin="3"/>
+      <node ref="C4" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="U1" pin="42"/>
+      <node ref="U1" pin="54"/>
+      <node ref="U3" pin="8"/>
+      <node ref="C3" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="R4" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="U1" pin="26"/>
+      <node ref="U1" pin="37"/>
+      <node ref="C24" pin="1"/>
+      <node ref="C21" pin="1"/>
+      <node ref="U1" pin="11"/>
+      <node ref="R7" pin="1"/>
+      <node ref="U4" pin="16"/>
+      <node ref="U4" pin="15"/>
+      <node ref="U9" pin="16"/>
+      <node ref="U3" pin="1"/>
+      <node ref="R6" pin="1"/>
+      <node ref="R5" pin="1"/>
+      <node ref="U5" pin="1"/>
+      <node ref="U5" pin="4"/>
+    </net>
+    <net code="70" name="Net-(R14-Pad2)">
+      <node ref="U6" pin="5"/>
+      <node ref="R14" pin="2"/>
+    </net>
+    <net code="71" name="Net-(C32-Pad1)">
+      <node ref="C32" pin="1"/>
+      <node ref="U7" pin="4"/>
+    </net>
+    <net code="72" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1"/>
+      <node ref="U6" pin="1"/>
+    </net>
+    <net code="73" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="R13" pin="1"/>
+    </net>
+    <net code="74" name="PWR_SWITCH">
+      <node ref="U11" pin="3"/>
+      <node ref="U10" pin="2"/>
+    </net>
+  </nets>
+</export>
