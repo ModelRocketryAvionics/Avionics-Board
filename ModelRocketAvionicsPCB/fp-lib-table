@@ -2,4 +2,5 @@
   (lib (name Avionics)(type KiCad)(uri "C:/Users/harri/Documents/GitHub/Model Rocketry/Avionics-Board/ModelRocketAvionicsPCB/Avionics KiCad-Lib/AvionicsIC.pretty")(options "")(descr ""))
   (lib (name "SFUSAT Caps")(type KiCad)(uri "C:/Users/harri/Documents/GitHub/Model Rocketry/Avionics-Board/ModelRocketAvionicsPCB/Avionics KiCad-Lib/SFUSat-cap.pretty")(options "")(descr ""))
   (lib (name SFUSAT-Res)(type KiCad)(uri "C:/Users/harri/Documents/GitHub/Model Rocketry/Avionics-Board/ModelRocketAvionicsPCB/Avionics KiCad-Lib/SFUSat-res.pretty")(options "")(descr ""))
+  (lib (name AvionicsIC)(type KiCad)(uri "C:/Users/harri/Documents/GitHub/Model Rocketry/Avionics-Board/ModelRocketAvionicsPCB/Avionics KiCad-Lib/AvionicsIC.pretty")(options "")(descr ""))
 )

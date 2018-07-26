@@ -1,4 +1,4 @@
-update=2018-07-13 9:27:35 PM
+update=2018-07-16 3:00:22 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -75,3 +73,5 @@ LibName33=l3gd20htr
 LibName34=mpl3115a2
 LibName35=dmg1029sv-7
 LibName36=css-1210tb
+[general]
+version=1

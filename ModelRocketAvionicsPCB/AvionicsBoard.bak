@@ -970,23 +970,23 @@ Left Side Female Header\n
 $Comp
 L CONNHeaderFemale16 U8
 U 1 1 5B41BDEB
-P 6850 1700
-F 0 "U8" H 6850 800 60  0000 C CNN
-F 1 "CONNHeaderFemale16" H 6700 2525 60  0000 C CNN
-F 2 "Avionics:16x1_Female_Header" H 6600 1550 60  0001 C CNN
-F 3 "" H 6600 1550 60  0001 C CNN
-	1    6850 1700
+P 7000 1700
+F 0 "U8" H 7000 800 60  0000 C CNN
+F 1 "CONNHeaderFemale16" H 6675 2525 60  0000 C CNN
+F 2 "Avionics:16x1_Female_Header" H 6750 1550 60  0001 C CNN
+F 3 "" H 6750 1550 60  0001 C CNN
+	1    7000 1700
 	1    0    0    -1  
 $EndComp
 $Comp
 L CONNHeaderFemale16 U9
 U 1 1 5B41BEC2
-P 8100 1725
-F 0 "U9" H 8100 825 60  0000 C CNN
-F 1 "CONNHeaderFemale16" H 7975 2550 60  0000 C CNN
-F 2 "Avionics:16x1_Female_Header" H 7850 1575 60  0001 C CNN
-F 3 "" H 7850 1575 60  0001 C CNN
-	1    8100 1725
+P 8325 1725
+F 0 "U9" H 8325 825 60  0000 C CNN
+F 1 "CONNHeaderFemale16" H 7950 2575 60  0000 C CNN
+F 2 "Avionics:16x1_Female_Header" H 8075 1575 60  0001 C CNN
+F 3 "" H 8075 1575 60  0001 C CNN
+	1    8325 1725
 	1    0    0    -1  
 $EndComp
 Text GLabel 10325 850  2    60   Input ~ 0
@@ -1010,10 +1010,10 @@ L R R15
 U 1 1 5B4A5634
 P 5325 1875
 F 0 "R15" V 5405 1875 50  0000 C CNN
-F 1 "330" V 5325 1875 50  0000 C CNN
+F 1 "100" V 5325 1875 50  0000 C CNN
 F 2 "SFUSAT-Res:R_0402" V 5255 1875 50  0001 C CNN
 F 3 "" H 5325 1875 50  0000 C CNN
-F 4 "RR05P330DCT-ND" V 5325 1875 60  0001 C CNN "Digi-Key Part Number"
+F 4 "P100DECT-ND" V 5325 1875 60  0001 C CNN "Digi-Key Part Number"
 	1    5325 1875
 	1    0    0    -1  
 $EndComp
@@ -1578,17 +1578,9 @@ Wire Wire Line
 Wire Wire Line
 	3975 7400 4050 7400
 Wire Notes Line
-	8500 500  8500 3050
+	8500 3050 8500 500 
 Wire Notes Line
-	8500 3050 7250 3050
-Wire Notes Line
-	7250 3050 7250 500 
-Wire Notes Line
-	7250 500  8500 500 
-Wire Notes Line
-	7200 500  7200 3050
-Wire Notes Line
-	7200 3050 6000 3050
+	6000 3050 7200 3050
 Wire Notes Line
 	6000 3050 6000 500 
 Wire Notes Line
@@ -1624,7 +1616,7 @@ Wire Wire Line
 Wire Wire Line
 	5325 2025 5325 2075
 Wire Wire Line
-	6550 2500 6600 2500
+	6700 2500 6750 2500
 Wire Wire Line
 	1750 7700 1750 7725
 Wire Notes Line
@@ -1681,134 +1673,142 @@ Wire Wire Line
 	3000 1250 3000 1300
 Wire Wire Line
 	3950 3650 4000 3650
-Text GLabel 6550 1000 0    60   Input ~ 0
+Text GLabel 6700 1000 0    60   Input ~ 0
 +VBAT
-Text GLabel 6550 1100 0    60   Input ~ 0
+Text GLabel 6700 1100 0    60   Input ~ 0
 +VBAT
-Text GLabel 6550 1200 0    60   Input ~ 0
+Text GLabel 6700 1200 0    60   Input ~ 0
 PWR_VDD
-Text GLabel 6550 1300 0    60   Input ~ 0
+Text GLabel 6700 1300 0    60   Input ~ 0
 PWR_VDD
-Text GLabel 6550 1400 0    60   Input ~ 0
+Text GLabel 6700 1400 0    60   Input ~ 0
 WAKE
-Text GLabel 6550 1500 0    60   Input ~ 0
+Text GLabel 6700 1500 0    60   Input ~ 0
 PA7
-Text GLabel 6550 1600 0    60   Input ~ 0
+Text GLabel 6700 1600 0    60   Input ~ 0
 PA6
-Text GLabel 6550 1700 0    60   Input ~ 0
+Text GLabel 6700 1700 0    60   Input ~ 0
 PA1/U0Tx
-Text GLabel 6550 1800 0    60   Input ~ 0
+Text GLabel 6700 1800 0    60   Input ~ 0
 PA0/U0Rx
-Text GLabel 6550 1900 0    60   Input ~ 0
+Text GLabel 6700 1900 0    60   Input ~ 0
 PC4
-Text GLabel 6550 2000 0    60   Input ~ 0
+Text GLabel 6700 2000 0    60   Input ~ 0
 PC5
-Text GLabel 6550 2100 0    60   Input ~ 0
+Text GLabel 6700 2100 0    60   Input ~ 0
 PC6
-Text GLabel 6550 2300 0    60   Input ~ 0
+Text GLabel 6700 2300 0    60   Input ~ 0
 PD7
-Text GLabel 6550 2400 0    60   Input ~ 0
+Text GLabel 6700 2400 0    60   Input ~ 0
 PE0
-Text GLabel 6550 2500 0    60   Input ~ 0
+Text GLabel 6700 2500 0    60   Input ~ 0
 PWR_GND
 Wire Wire Line
 	2600 4000 2600 3950
 Wire Wire Line
 	2500 3950 2500 4000
 Wire Wire Line
-	6550 2400 6600 2400
+	6700 2400 6750 2400
 Wire Wire Line
-	6600 2300 6550 2300
+	6750 2300 6700 2300
 Wire Wire Line
-	6550 2200 6600 2200
+	6700 2200 6750 2200
 Wire Wire Line
-	6600 2100 6550 2100
+	6750 2100 6700 2100
 Wire Wire Line
-	6550 2000 6600 2000
+	6700 2000 6750 2000
 Wire Wire Line
-	6550 1900 6600 1900
+	6700 1900 6750 1900
 Wire Wire Line
-	6600 1800 6550 1800
+	6750 1800 6700 1800
 Wire Wire Line
-	6550 1700 6600 1700
+	6700 1700 6750 1700
 Wire Wire Line
-	6600 1600 6550 1600
+	6750 1600 6700 1600
 Wire Wire Line
-	6550 1500 6600 1500
+	6700 1500 6750 1500
 Wire Wire Line
-	6600 1400 6550 1400
+	6750 1400 6700 1400
 Wire Wire Line
-	6600 1300 6550 1300
+	6750 1300 6700 1300
 Wire Wire Line
-	6550 1200 6600 1200
+	6700 1200 6750 1200
 Wire Wire Line
-	6600 1100 6550 1100
+	6750 1100 6700 1100
 Wire Wire Line
-	6550 1000 6600 1000
-Text GLabel 7800 1025 0    60   Input ~ 0
+	6700 1000 6750 1000
+Text GLabel 8025 1025 0    60   Input ~ 0
 PWR_GND
-Text GLabel 7800 1125 0    60   Input ~ 0
+Text GLabel 8025 1125 0    60   Input ~ 0
 PWR_GND
-Text GLabel 7800 1225 0    60   Input ~ 0
+Text GLabel 8025 1225 0    60   Input ~ 0
 PB2/I2C_SCL
-Text GLabel 7800 1325 0    60   Input ~ 0
+Text GLabel 8025 1325 0    60   Input ~ 0
 PB3/I2C_SDA
-Text GLabel 7800 1425 0    60   Input ~ 0
+Text GLabel 8025 1425 0    60   Input ~ 0
 PD6
-Text GLabel 7800 1525 0    60   Input ~ 0
+Text GLabel 8025 1525 0    60   Input ~ 0
 RESET
-Text GLabel 7800 1625 0    60   Input ~ 0
+Text GLabel 8025 1625 0    60   Input ~ 0
 HIB
-Text GLabel 7800 2125 0    60   Input ~ 0
+Text GLabel 8025 2125 0    60   Input ~ 0
 PD0/SSI1CLK
-Text GLabel 7800 2225 0    60   Input ~ 0
+Text GLabel 8025 2225 0    60   Input ~ 0
 PD1/SSI1Fss
-Text GLabel 7800 2325 0    60   Input ~ 0
+Text GLabel 8025 2325 0    60   Input ~ 0
 PD2/SSI1Rx
-Text GLabel 7800 2425 0    60   Input ~ 0
+Text GLabel 8025 2425 0    60   Input ~ 0
 PD3/SSI1Tx
-Text GLabel 7800 1725 0    60   Input ~ 0
+Text GLabel 8025 1725 0    60   Input ~ 0
 PB5
-Text GLabel 7800 1825 0    60   Input ~ 0
+Text GLabel 8025 1825 0    60   Input ~ 0
 PB4
-Text GLabel 7800 1925 0    60   Input ~ 0
+Text GLabel 8025 1925 0    60   Input ~ 0
 PE4
-Text GLabel 7800 2025 0    60   Input ~ 0
+Text GLabel 8025 2025 0    60   Input ~ 0
 PE5
-Text GLabel 7800 2525 0    60   Input ~ 0
+Text GLabel 8025 2525 0    60   Input ~ 0
 PWR_VDD
 Wire Wire Line
-	7800 2525 7850 2525
+	8025 2525 8075 2525
 Wire Wire Line
-	7850 2425 7800 2425
+	8075 2425 8025 2425
 Wire Wire Line
-	7800 2325 7850 2325
+	8025 2325 8075 2325
 Wire Wire Line
-	7850 2225 7800 2225
+	8075 2225 8025 2225
 Wire Wire Line
-	7800 2125 7850 2125
+	8025 2125 8075 2125
 Wire Wire Line
-	7850 2025 7800 2025
+	8075 2025 8025 2025
 Wire Wire Line
-	7800 1925 7850 1925
+	8025 1925 8075 1925
 Wire Wire Line
-	7800 1825 7850 1825
+	8025 1825 8075 1825
 Wire Wire Line
-	7850 1725 7800 1725
+	8075 1725 8025 1725
 Wire Wire Line
-	7800 1625 7850 1625
+	8025 1625 8075 1625
 Wire Wire Line
-	7850 1525 7800 1525
+	8075 1525 8025 1525
 Wire Wire Line
-	7800 1425 7850 1425
+	8025 1425 8075 1425
 Wire Wire Line
-	7850 1325 7800 1325
+	8075 1325 8025 1325
 Wire Wire Line
-	7800 1225 7850 1225
+	8025 1225 8075 1225
 Wire Wire Line
-	7850 1125 7800 1125
+	8075 1125 8025 1125
 Wire Wire Line
-	7800 1025 7850 1025
-Text GLabel 6550 2200 0    60   Input ~ 0
+	8025 1025 8075 1025
+Text GLabel 6700 2200 0    60   Input ~ 0
 PC7
+Wire Notes Line
+	7200 500  7200 3050
+Wire Notes Line
+	7250 3050 8500 3050
+Wire Notes Line
+	7250 3050 7250 500 
+Wire Notes Line
+	7250 500  8500 500 
 $EndSCHEMATC
