@@ -11,7 +11,9 @@ GEN_CMDS__FLAG :=
 
 ORDERED_OBJS += \
 "./main.obj" \
+"./rf_cc2500.obj" \
 "./sch.obj" \
+"./ser.obj" \
 "./tm4c1230h6pm_startup_ccs.obj" \
 "D:/ti/TivaWare_C_Series-2.1.4.178/driverlib/ccs/Debug/driverlib.lib" \
 "../tm4c1230h6pm.cmd" \
@@ -156,8 +158,8 @@ ModelRocketAvionics.hex: $(EXE_OUTPUTS)
 # Other Targets
 clean:
 	-$(RM) $(BIN_OUTPUTS__QUOTED)$(EXE_OUTPUTS__QUOTED)
-	-$(RM) "main.obj" "sch.obj" "tm4c1230h6pm_startup_ccs.obj" 
-	-$(RM) "main.d" "sch.d" "tm4c1230h6pm_startup_ccs.d" 
+	-$(RM) "main.obj" "rf_cc2500.obj" "sch.obj" "ser.obj" "tm4c1230h6pm_startup_ccs.obj" 
+	-$(RM) "main.d" "rf_cc2500.d" "sch.d" "ser.d" "tm4c1230h6pm_startup_ccs.d" 
 	-@echo 'Finished clean'
 	-@echo ' '
 

@@ -40,6 +40,7 @@ uint8_t InitSysTick(void);
 void SysTickInterruptHandler(void);
 #endif
 
+
 //#############################################//
 //               Scheduler Structures
 //#############################################//
@@ -58,18 +59,44 @@ struct TaskTimerStructure {
     uint32_t TaskLastTime;
 };
 
+
 //#############################################//
 //               Scheduler Variables
 //#############################################//
+
 uint8_t numOfTasks = 0;
 struct TaskStructure TaskList[MAX_NUMBER_OF_TASKS];
 
 uint8_t numOfTaskTimers = 0;
 struct TaskTimerStructure TaskTimerList[MAX_NUMBER_OF_TASKS];
 
+
 //#############################################//
 //               Scheduler Functions
 //#############################################//
+
+/*
+ * GetTaskState(taskID)
+ *  Returns the current TaskState of taskID where:
+ *      TASK_STATE_INIT 0
+ *      TASK_STATE_IDLE 1
+ *      TASK_STATE_EXEC 2
+ *      TASK_STATE_DEAD 3
+ */
+uint8_t GetTaskState(uint8_t taskID) {
+    return TaskList[taskID].TaskState;
+}
+
+/*
+ * SetTaskState(taskID)
+ *  Sets the current TaskState of taskID to taskState where:
+ *      TASK_CONDITION_TYPE_BOOL 0
+ *      TASK_CONDITION_TYPE_TIMER 1
+ *      TASK_CONDITION_TYPE_FUNCTION 2
+ */
+void SetTaskState(uint8_t taskID, uint8_t taskState) {
+    TaskList[taskID].TaskState = taskState;
+}
 
 /*
  * AddTaskCond()
@@ -140,8 +167,7 @@ uint8_t AddTaskTime(uint8_t (*taskInit)(void), _Bool (*taskExec)(uint8_t), uint3
 
 /*
  * InitScheduler()
- *  Initializes the Scheduler, call this after all tasks have been added.
- *  This function configures SysTick timer if enabled.
+ *  Initializes the Scheduler, this function configures SysTick timer if enabled.
  */
 uint8_t InitScheduler() {
 
@@ -206,7 +232,7 @@ void UpdateScheduler() {
                     //Execute the TaskExec() function with the TaskID as a parameter, the..
                     // function should return true to set it's state back to idle, or..
                     // handle it manually.
-                    if((*TaskList[currentTask].TaskExec)(TaskList[currentTask].TaskID)) {
+                    if(!TaskList[currentTask].TaskExec && (*TaskList[currentTask].TaskExec)(TaskList[currentTask].TaskID)) {
                         TaskList[currentTask].TaskState = TASK_STATE_IDLE;
                     } else {
                         TaskList[currentTask].TaskState = TASK_STATE_EXEC;
@@ -229,13 +255,13 @@ void UpdateScheduler() {
 }
 
 
+#if SYSTICK_ENABLE == 1
 //#############################################//
 //                SysTick Variables
 //#############################################//
 //This variable is outside the #if since it may be referenced elsewhere.
 uint32_t currentTime = 0;
 
-#if SYSTICK_ENABLE == 1
 //#############################################//
 //                SysTick Functions
 //#############################################//
@@ -257,7 +283,7 @@ uint8_t InitSysTick() {
     // Register the interrupt handler
     SysTickIntRegister(SysTickInterruptHandler);
 
-    //Enable Systick and resume interrupts
+    //Enable SysTick and resume interrupts
     SysTickEnable();
     IntMasterEnable();
 
